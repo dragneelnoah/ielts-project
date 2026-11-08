@@ -1,0 +1,30 @@
+{
+  "type": "pie",
+  "title": "Global Habitable Land Surface Allocation",
+  "desc": "The pie chart illustrates how the earth\u2019s total habitable land area is allocated between agriculture, forests, shrubland, and infrastructure.",
+  "labels": [
+    "Agriculture",
+    "Forests",
+    "Shrub & Scrub",
+    "Urban & Infrastructure",
+    "Freshwater"
+  ],
+  "datasets": [
+    {
+      "data": [
+        50,
+        37,
+        11,
+        1,
+        1
+      ],
+      "backgroundColor": [
+        "#f59e0b",
+        "#10b981",
+        "#8b5cf6",
+        "#ef4444",
+        "#3b82f6"
+      ]
+    }
+  ]
+}

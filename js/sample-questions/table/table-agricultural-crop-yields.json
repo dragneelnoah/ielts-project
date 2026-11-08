@@ -1,0 +1,42 @@
+{
+  "type": "table",
+  "title": "Average Grain Yields and Land Area Cultivated (2010 vs 2020)",
+  "desc": "The table highlights changes in land area (million hectares) and crop yields (tonnes/hectare) for major staple grains.",
+  "headers": [
+    "Crop Type",
+    "2010 Area (M ha)",
+    "2020 Area (M ha)",
+    "2010 Yield (t/ha)",
+    "2020 Yield (t/ha)"
+  ],
+  "rows": [
+    [
+      "Wheat",
+      "217",
+      "219",
+      "3.0",
+      "3.5"
+    ],
+    [
+      "Maize (Corn)",
+      "162",
+      "197",
+      "5.1",
+      "5.8"
+    ],
+    [
+      "Rice (Paddy)",
+      "154",
+      "164",
+      "4.3",
+      "4.7"
+    ],
+    [
+      "Barley",
+      "47",
+      "51",
+      "2.8",
+      "3.1"
+    ]
+  ]
+}

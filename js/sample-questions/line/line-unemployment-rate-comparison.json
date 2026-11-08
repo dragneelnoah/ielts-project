@@ -1,0 +1,65 @@
+{
+  "type": "line",
+  "title": "Unemployment Rates in Canada, Japan, and USA (2015 - 2022)",
+  "desc": "The chart displays annual unemployment rates as a percentage of the total workforce in three developed nations.",
+  "labels": [
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022"
+  ],
+  "datasets": [
+    {
+      "label": "Canada",
+      "data": [
+        6.9,
+        7.0,
+        6.3,
+        5.8,
+        5.7,
+        9.6,
+        7.5,
+        5.3
+      ],
+      "borderColor": "#ef4444",
+      "backgroundColor": "#ef4444",
+      "tension": 0.3
+    },
+    {
+      "label": "United States",
+      "data": [
+        5.3,
+        4.9,
+        4.4,
+        3.9,
+        3.7,
+        8.1,
+        5.4,
+        3.6
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    },
+    {
+      "label": "Japan",
+      "data": [
+        3.4,
+        3.1,
+        2.8,
+        2.4,
+        2.4,
+        2.8,
+        2.8,
+        2.6
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    }
+  ]
+}

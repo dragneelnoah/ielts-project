@@ -1,0 +1,53 @@
+{
+  "type": "line",
+  "title": "Average Annual Household Utility Costs (2015 - 2023)",
+  "desc": "The graph compares mean yearly spending in GBP on electricity, gas, and water per household in a UK city.",
+  "labels": [
+    "2015",
+    "2017",
+    "2019",
+    "2021",
+    "2023"
+  ],
+  "datasets": [
+    {
+      "label": "Electricity",
+      "data": [
+        550,
+        580,
+        620,
+        710,
+        950
+      ],
+      "borderColor": "#f59e0b",
+      "backgroundColor": "#f59e0b",
+      "tension": 0.3
+    },
+    {
+      "label": "Gas",
+      "data": [
+        680,
+        690,
+        710,
+        840,
+        1120
+      ],
+      "borderColor": "#ef4444",
+      "backgroundColor": "#ef4444",
+      "tension": 0.3
+    },
+    {
+      "label": "Water",
+      "data": [
+        380,
+        395,
+        410,
+        425,
+        460
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    }
+  ]
+}

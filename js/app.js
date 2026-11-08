@@ -1,52 +1,58 @@
-const sampleDatasets = {
-    line: {
-        type: 'line',
-        title: 'Global Carbon Emissions by Sector (2000 - 2020)',
-        desc: 'The line graph compares carbon dioxide emissions in millions of tonnes across four main industrial sectors over a twenty-year span.',
-        labels: ['2000', '2005', '2010', '2015', '2020'],
-        datasets: [
-            { label: 'Energy Supply', data: [42, 48, 55, 60, 58], borderColor: '#3b82f6', backgroundColor: '#3b82f6', tension: 0.3 },
-            { label: 'Industry', data: [25, 28, 30, 32, 29], borderColor: '#10b981', backgroundColor: '#10b981', tension: 0.3 },
-            { label: 'Transport', data: [18, 22, 26, 31, 35], borderColor: '#f59e0b', backgroundColor: '#f59e0b', tension: 0.3 },
-            { label: 'Agriculture', data: [12, 13, 14, 15, 16], borderColor: '#ec4899', backgroundColor: '#ec4899', tension: 0.3 }
-        ]
-    },
-    bar: {
-        type: 'bar',
-        title: 'Internet Penetration Rates in Selected Countries (2024)',
-        desc: 'The bar chart illustrates the percentage of the population with regular internet access across five nations in 2024.',
-        labels: ['Norway', 'South Korea', 'Canada', 'Brazil', 'Nigeria'],
-        datasets: [
-            { label: 'Internet Penetration (%)', data: [99, 98, 93, 84, 52], backgroundColor: ['#3b82f6', '#10b981', '#f59e0b', '#ec4899', '#8b5cf6'] }
-        ]
-    },
-    pie: {
-        type: 'pie',
-        title: 'Proportion of Energy Sources in European Union (2023)',
-        desc: 'The pie chart breaks down the percentage share of different energy generation sources across the EU in 2023.',
-        labels: ['Renewables', 'Nuclear', 'Natural Gas', 'Coal', 'Oil'],
-        datasets: [
-            { data: [42, 23, 18, 11, 6], backgroundColor: ['#10b981', '#3b82f6', '#f59e0b', '#64748b', '#ef4444'] }
-        ]
-    },
-    table: {
-        type: 'table',
-        title: 'Average Monthly Temperature and Rainfall in City X',
-        desc: 'The table details the average monthly temperatures (in °C) and total rainfall (in mm) in a metropolitan area throughout the year.',
-        headers: ['Month', 'Temperature (°C)', 'Rainfall (mm)', 'Sunshine Hours'],
-        rows: [
-            ['January', '4.2', '85', '60'],
-            ['April', '12.5', '50', '180'],
-            ['July', '22.1', '35', '290'],
-            ['October', '11.0', '70', '110']
-        ]
-    }
+const exerciseManifest = {
+    line: [
+        'line-global-carbon-emissions.json',
+        'line-urban-population-growth.json',
+        'line-e-commerce-sales-trends.json',
+        'line-international-tourist-arrivals.json',
+        'line-household-energy-bills.json',
+        'line-smartphone-adoption-rates.json',
+        'line-renewable-power-generation.json',
+        'line-unemployment-rate-comparison.json',
+        'line-public-library-visits.json',
+        'line-freshwater-consumption.json'
+    ],
+    bar: [
+        'bar-internet-penetration-rates.json',
+        'bar-university-subject-enrollment.json',
+        'bar-plastic-waste-recycling.json',
+        'bar-household-expenditure-categories.json',
+        'bar-global-coffee-production.json',
+        'bar-electric-vehicle-market-share.json',
+        'bar-air-travel-passenger-volume.json',
+        'bar-fast-food-brand-revenue.json',
+        'bar-working-hours-by-country.json',
+        'bar-higher-education-graduates.json'
+    ],
+    pie: [
+        'pie-eu-energy-sources-breakdown.json',
+        'pie-household-water-usage.json',
+        'pie-smartphone-operating-systems.json',
+        'pie-land-use-distribution.json',
+        'pie-student-commute-methods.json',
+        'pie-online-streaming-market.json',
+        'pie-global-e-waste-generation.json',
+        'pie-municipal-waste-composition.json',
+        'pie-tourist-spending-categories.json',
+        'pie-renewable-energy-investment.json'
+    ],
+    table: [
+        'table-monthly-city-weather.json',
+        'table-employment-sectors-by-gender.json',
+        'table-railway-passenger-statistics.json',
+        'table-hotel-occupancy-and-room-rates.json',
+        'table-agricultural-crop-yields.json',
+        'table-university-ranking-metrics.json',
+        'table-vehicle-fuel-efficiency.json',
+        'table-commercial-shipping-fleet.json',
+        'table-broadband-internet-costs.json',
+        'table-public-transit-ridership.json'
+    ]
 };
 
 class IELTSApp {
     constructor() {
         this.currentType = 'line';
-        this.currentData = JSON.parse(JSON.stringify(sampleDatasets.line));
+        this.currentData = null;
         this.chartInstance = null;
         this.activeTab = 'form';
         this.initListeners();
@@ -54,31 +60,64 @@ class IELTSApp {
 
     initListeners() {
         const toggleBtn = document.getElementById('toggle-drawer-btn');
-        const randomizeBtn = document.getElementById('randomize-btn');
-        
+        const exerciseBtn = document.getElementById('exercise-btn');
+
         if (toggleBtn) {
             toggleBtn.addEventListener('click', () => this.toggleDrawer());
         }
-        if (randomizeBtn) {
-            randomizeBtn.addEventListener('click', () => this.randomizeCurrentData());
+        if (exerciseBtn) {
+            exerciseBtn.addEventListener('click', () => this.loadRandomExercise());
         }
     }
 
-    selectGraphType(type) {
+    async selectGraphType(type) {
         this.currentType = type;
-        this.currentData = JSON.parse(JSON.stringify(sampleDatasets[type] || sampleDatasets.line));
-        
         document.getElementById('landing-view').classList.add('hidden');
         document.getElementById('workspace-view').classList.remove('hidden');
-        
+
+        // Switch header layout from centered to space-between and show action buttons
+        const header = document.getElementById('app-header');
+        header.className = "bg-slate-800 border-b border-slate-700 px-6 py-4 flex items-center justify-between sticky top-0 z-30 shadow-md transition-all";
+        const headerActions = document.getElementById('header-actions');
+        headerActions.classList.remove('hidden');
+        headerActions.classList.add('flex');
+
         document.getElementById('current-type-badge').innerText = type.toUpperCase() + ' GRAPH';
-        
-        this.renderWorkspace();
+
+        await this.loadRandomExercise();
+    }
+
+    async loadRandomExercise() {
+        const files = exerciseManifest[this.currentType];
+        if (!files || files.length === 0) return;
+
+        const randomIndex = Math.floor(Math.random() * files.length);
+        const targetFile = files[randomIndex];
+        const fetchUrl = `js/sample-questions/${this.currentType}/${targetFile}`;
+
+        try {
+            const res = await fetch(fetchUrl);
+            if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+            const data = await res.json();
+            this.currentData = data;
+            this.renderWorkspace();
+        } catch (err) {
+            console.error('Failed to load JSON exercise:', err);
+            alert('Failed to fetch exercise file. Ensure you are running this project on a local server or GitHub Pages.');
+        }
     }
 
     returnToHome() {
         document.getElementById('workspace-view').classList.add('hidden');
         document.getElementById('landing-view').classList.remove('hidden');
+
+        // Switch header layout back to centered and hide action buttons
+        const header = document.getElementById('app-header');
+        header.className = "bg-slate-800 border-b border-slate-700 px-6 py-4 flex items-center justify-center sticky top-0 z-30 shadow-md transition-all";
+        const headerActions = document.getElementById('header-actions');
+        headerActions.classList.add('hidden');
+        headerActions.classList.remove('flex');
+
         if (this.chartInstance) {
             this.chartInstance.destroy();
             this.chartInstance = null;
@@ -113,6 +152,8 @@ class IELTSApp {
     }
 
     renderWorkspace() {
+        if (!this.currentData) return;
+
         document.getElementById('task-prompt-title').innerText = this.currentData.title;
         document.getElementById('task-prompt-desc').innerText = this.currentData.desc;
 
@@ -201,7 +242,7 @@ class IELTSApp {
 
         this.currentData.datasets.forEach((ds, dIdx) => {
             html += `<div class="bg-slate-900/60 p-3 rounded-xl border border-slate-700 space-y-2">`;
-            html += `<div class="flex justify-between items-center"><span class="text-xs font-bold text-blue-400">Series: ${ds.label}</span></div>`;
+            html += `<div class="flex justify-between items-center"><span class="text-xs font-bold text-blue-400">Series: ${ds.label || 'Data Points'}</span></div>`;
             html += `<input type="text" data-dataset-index="${dIdx}" class="dataset-data-input w-full bg-slate-950 border border-slate-700 rounded px-2 py-1 text-xs text-emerald-400" value="${ds.data.join(', ')}">`;
             html += `</div>`;
         });
@@ -240,30 +281,6 @@ class IELTSApp {
         } catch (e) {
             alert('Invalid JSON format. Please check your syntax.');
         }
-    }
-
-    randomizeCurrentData() {
-        if (this.currentType === 'line') {
-            const randomVals1 = Array.from({length: 5}, () => Math.floor(Math.random() * 60) + 10);
-            const randomVals2 = Array.from({length: 5}, () => Math.floor(Math.random() * 50) + 15);
-            const randomVals3 = Array.from({length: 5}, () => Math.floor(Math.random() * 40) + 5);
-            this.currentData.datasets[0].data = randomVals1;
-            this.currentData.datasets[1].data = randomVals2;
-            this.currentData.datasets[2].data = randomVals3;
-            this.currentData.title = 'Randomized Global Sector Trends';
-        } else if (this.currentType === 'bar') {
-            const randomVals = Array.from({length: 5}, () => Math.floor(Math.random() * 80) + 20);
-            this.currentData.datasets[0].data = randomVals;
-            this.currentData.title = 'Randomized Regional Comparison Metrics';
-        } else if (this.currentType === 'pie') {
-            let r1 = Math.floor(Math.random() * 40) + 20;
-            let r2 = Math.floor(Math.random() * 30) + 10;
-            let r3 = 100 - (r1 + r2);
-            if (r3 < 5) r3 = 5;
-            this.currentData.datasets[0].data = [r1, r2, r3, 100 - (r1 + r2 + r3)];
-            this.currentData.title = 'Randomized Proportional Share Distribution';
-        }
-        this.renderWorkspace();
     }
 }
 

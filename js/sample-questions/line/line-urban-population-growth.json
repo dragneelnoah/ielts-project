@@ -1,0 +1,57 @@
+{
+  "type": "line",
+  "title": "Percentage of Urban Population in Three European Countries (1970 - 2020)",
+  "desc": "The graph illustrates the proportion of citizens residing in urban centers in France, Germany, and Spain over five decades.",
+  "labels": [
+    "1970",
+    "1980",
+    "1990",
+    "2000",
+    "2010",
+    "2020"
+  ],
+  "datasets": [
+    {
+      "label": "France",
+      "data": [
+        71,
+        73,
+        74,
+        77,
+        79,
+        81
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    },
+    {
+      "label": "Germany",
+      "data": [
+        72,
+        73,
+        73,
+        75,
+        76,
+        77
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    },
+    {
+      "label": "Spain",
+      "data": [
+        66,
+        73,
+        75,
+        76,
+        78,
+        81
+      ],
+      "borderColor": "#f59e0b",
+      "backgroundColor": "#f59e0b",
+      "tension": 0.3
+    }
+  ]
+}

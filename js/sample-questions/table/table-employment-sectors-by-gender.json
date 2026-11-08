@@ -1,0 +1,43 @@
+{
+  "type": "table",
+  "title": "Employment Distribution Across Economic Sectors by Gender (2022)",
+  "desc": "The table compares the proportion of male and female employees working in five economic sectors in Australia.",
+  "headers": [
+    "Economic Sector",
+    "Male Workers (%)",
+    "Female Workers (%)",
+    "Average Hourly Pay ($)"
+  ],
+  "rows": [
+    [
+      "Healthcare & Social Care",
+      "21.2",
+      "78.8",
+      "36.50"
+    ],
+    [
+      "Construction & Trades",
+      "88.5",
+      "11.5",
+      "38.20"
+    ],
+    [
+      "Education & Training",
+      "28.4",
+      "71.6",
+      "35.00"
+    ],
+    [
+      "Finance & Insurance",
+      "51.3",
+      "48.7",
+      "45.10"
+    ],
+    [
+      "Retail Trade",
+      "44.8",
+      "55.2",
+      "26.80"
+    ]
+  ]
+}

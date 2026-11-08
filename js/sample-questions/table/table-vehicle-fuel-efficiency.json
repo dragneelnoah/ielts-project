@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Fuel Consumption and Carbon Emissions of Vehicle Classes",
+  "desc": "The table compares fuel economy figures and CO2 emissions across standard passenger vehicle categories.",
+  "headers": [
+    "Vehicle Category",
+    "City Economy (MPG)",
+    "Highway Economy (MPG)",
+    "CO2 Output (g/km)"
+  ],
+  "rows": [
+    [
+      "Compact Hybrid",
+      "52",
+      "49",
+      "95"
+    ],
+    [
+      "Mid-size Sedan",
+      "28",
+      "38",
+      "162"
+    ],
+    [
+      "Compact SUV",
+      "24",
+      "30",
+      "195"
+    ],
+    [
+      "Full-size Truck",
+      "16",
+      "22",
+      "285"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Annual Passenger Footfall at Top European Airports (2022)",
+  "desc": "The bar chart compares annual passenger throughput in millions at five major European international hub airports.",
+  "labels": [
+    "London Heathrow",
+    "Paris CDG",
+    "Amsterdam Schiphol",
+    "Madrid Barajas",
+    "Frankfurt"
+  ],
+  "datasets": [
+    {
+      "label": "Passengers (Millions)",
+      "data": [
+        61.6,
+        57.5,
+        52.5,
+        50.6,
+        48.9
+      ],
+      "backgroundColor": [
+        "#8b5cf6",
+        "#3b82f6",
+        "#10b981",
+        "#f59e0b",
+        "#ef4444"
+      ]
+    }
+  ]
+}

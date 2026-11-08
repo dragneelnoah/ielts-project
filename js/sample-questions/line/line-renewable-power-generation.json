@@ -1,0 +1,57 @@
+{
+  "type": "line",
+  "title": "Electricity Produced from Renewables (2005 - 2020)",
+  "desc": "The graph compares total terawatt-hours (TWh) of electricity generated from wind, solar, and hydroelectric power globally.",
+  "labels": [
+    "2005",
+    "2008",
+    "2011",
+    "2014",
+    "2017",
+    "2020"
+  ],
+  "datasets": [
+    {
+      "label": "Hydroelectric",
+      "data": [
+        2930,
+        3250,
+        3510,
+        3880,
+        4180,
+        4370
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    },
+    {
+      "label": "Wind",
+      "data": [
+        104,
+        220,
+        435,
+        710,
+        1130,
+        1590
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    },
+    {
+      "label": "Solar",
+      "data": [
+        4,
+        12,
+        62,
+        198,
+        442,
+        854
+      ],
+      "borderColor": "#f59e0b",
+      "backgroundColor": "#f59e0b",
+      "tension": 0.3
+    }
+  ]
+}

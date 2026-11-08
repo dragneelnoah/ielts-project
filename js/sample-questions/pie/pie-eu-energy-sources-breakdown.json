@@ -1,0 +1,30 @@
+{
+  "type": "pie",
+  "title": "Proportion of Energy Sources in European Union (2023)",
+  "desc": "The pie chart breaks down the percentage share of different energy generation sources across the EU in 2023.",
+  "labels": [
+    "Renewables",
+    "Nuclear",
+    "Natural Gas",
+    "Coal",
+    "Oil"
+  ],
+  "datasets": [
+    {
+      "data": [
+        42,
+        23,
+        18,
+        11,
+        6
+      ],
+      "backgroundColor": [
+        "#10b981",
+        "#3b82f6",
+        "#f59e0b",
+        "#64748b",
+        "#ef4444"
+      ]
+    }
+  ]
+}

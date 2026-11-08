@@ -1,0 +1,30 @@
+{
+  "type": "pie",
+  "title": "Global Electronic Waste Generation by Equipment Category",
+  "desc": "The pie chart shows the relative percentage breakdown by weight of electronic waste categories produced globally.",
+  "labels": [
+    "Small Equipment (Microwaves, Fans)",
+    "Large Equipment (Washing Machines)",
+    "Temperature Exchange (Fridges, AC)",
+    "Screens & Monitors",
+    "IT & Telecom (Phones, Laptops)"
+  ],
+  "datasets": [
+    {
+      "data": [
+        38,
+        20,
+        18,
+        13,
+        11
+      ],
+      "backgroundColor": [
+        "#64748b",
+        "#3b82f6",
+        "#06b6d4",
+        "#f59e0b",
+        "#ec4899"
+      ]
+    }
+  ]
+}

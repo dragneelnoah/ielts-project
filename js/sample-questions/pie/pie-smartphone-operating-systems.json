@@ -1,0 +1,24 @@
+{
+  "type": "pie",
+  "title": "Global Smartphone Operating System Market Share (2023)",
+  "desc": "The pie chart shows the percentage share held by primary mobile operating systems worldwide.",
+  "labels": [
+    "Android",
+    "iOS",
+    "Others"
+  ],
+  "datasets": [
+    {
+      "data": [
+        70.5,
+        28.8,
+        0.7
+      ],
+      "backgroundColor": [
+        "#10b981",
+        "#3b82f6",
+        "#64748b"
+      ]
+    }
+  ]
+}

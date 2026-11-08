@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Internet Penetration Rates in Selected Countries (2024)",
+  "desc": "The bar chart compares the percentage of the general population with regular internet access across five nations in 2024.",
+  "labels": [
+    "Norway",
+    "South Korea",
+    "Canada",
+    "Brazil",
+    "Nigeria"
+  ],
+  "datasets": [
+    {
+      "label": "Internet Penetration (%)",
+      "data": [
+        99,
+        98,
+        93,
+        84,
+        52
+      ],
+      "backgroundColor": [
+        "#3b82f6",
+        "#10b981",
+        "#f59e0b",
+        "#ec4899",
+        "#8b5cf6"
+      ]
+    }
+  ]
+}

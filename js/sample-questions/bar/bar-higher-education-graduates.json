@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "STEM University Graduates per 100,000 Inhabitants (2021)",
+  "desc": "The chart compares the relative volume of science, technology, engineering, and math graduates across five countries.",
+  "labels": [
+    "South Korea",
+    "Germany",
+    "United Kingdom",
+    "France",
+    "United States"
+  ],
+  "datasets": [
+    {
+      "label": "STEM Graduates / 100k",
+      "data": [
+        138,
+        112,
+        105,
+        96,
+        88
+      ],
+      "backgroundColor": [
+        "#10b981",
+        "#3b82f6",
+        "#8b5cf6",
+        "#f59e0b",
+        "#ef4444"
+      ]
+    }
+  ]
+}

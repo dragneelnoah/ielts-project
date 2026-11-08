@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Average Monthly Temperature and Rainfall in City X",
+  "desc": "The table details average monthly temperatures (in \u00b0C), total rainfall (in mm), and mean daily sunshine hours across four seasons.",
+  "headers": [
+    "Season / Month",
+    "Temperature (\u00b0C)",
+    "Rainfall (mm)",
+    "Sunshine (Hours/Day)"
+  ],
+  "rows": [
+    [
+      "January (Winter)",
+      "4.2",
+      "85",
+      "2.1"
+    ],
+    [
+      "April (Spring)",
+      "12.5",
+      "50",
+      "6.0"
+    ],
+    [
+      "July (Summer)",
+      "22.1",
+      "35",
+      "9.3"
+    ],
+    [
+      "October (Autumn)",
+      "11.0",
+      "70",
+      "3.6"
+    ]
+  ]
+}

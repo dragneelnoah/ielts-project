@@ -1,0 +1,36 @@
+{
+  "type": "bar",
+  "title": "Average Weekly Household Expenditure Breakdown (2013 vs 2023)",
+  "desc": "The bar chart compares average weekly spending per household in USD across five major spending categories over a decade.",
+  "labels": [
+    "Housing & Energy",
+    "Food & Groceries",
+    "Transport",
+    "Recreation",
+    "Clothing"
+  ],
+  "datasets": [
+    {
+      "label": "2013 Expenditure ($)",
+      "data": [
+        310,
+        180,
+        140,
+        110,
+        65
+      ],
+      "backgroundColor": "#64748b"
+    },
+    {
+      "label": "2023 Expenditure ($)",
+      "data": [
+        450,
+        240,
+        195,
+        135,
+        70
+      ],
+      "backgroundColor": "#3b82f6"
+    }
+  ]
+}

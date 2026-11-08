@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Global Revenue of Major Fast Food Chains (2023)",
+  "desc": "The chart details total annual revenue in billions of USD generated worldwide by five leading fast food franchises.",
+  "labels": [
+    "McDonald's",
+    "Starbucks",
+    "Subway",
+    "KFC",
+    "Domino's"
+  ],
+  "datasets": [
+    {
+      "label": "Worldwide Revenue ($ Billions)",
+      "data": [
+        25.4,
+        35.9,
+        9.8,
+        6.8,
+        4.5
+      ],
+      "backgroundColor": [
+        "#ef4444",
+        "#10b981",
+        "#f59e0b",
+        "#ef4444",
+        "#3b82f6"
+      ]
+    }
+  ]
+}

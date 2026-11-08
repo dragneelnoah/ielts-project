@@ -1,0 +1,30 @@
+{
+  "type": "pie",
+  "title": "Primary Transport Methods Used by University Students",
+  "desc": "The chart displays the percentage distribution of travel modes chosen by university students to reach campus.",
+  "labels": [
+    "Public Bus",
+    "Bicycle",
+    "Walking",
+    "Private Car",
+    "Train / Metro"
+  ],
+  "datasets": [
+    {
+      "data": [
+        38,
+        26,
+        18,
+        11,
+        7
+      ],
+      "backgroundColor": [
+        "#3b82f6",
+        "#10b981",
+        "#f59e0b",
+        "#ef4444",
+        "#8b5cf6"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "pie",
+  "title": "Subscription Video on Demand (SVOD) Market Share (2023)",
+  "desc": "The pie chart depicts the percentage of total streaming subscribers held by top digital platforms.",
+  "labels": [
+    "Netflix",
+    "Prime Video",
+    "Disney+",
+    "Max / HBO",
+    "Paramount+",
+    "Others"
+  ],
+  "datasets": [
+    {
+      "data": [
+        31,
+        22,
+        18,
+        12,
+        7,
+        10
+      ],
+      "backgroundColor": [
+        "#ef4444",
+        "#3b82f6",
+        "#1e3a8a",
+        "#8b5cf6",
+        "#06b6d4",
+        "#64748b"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "type": "line",
+  "title": "International Tourist Arrivals in Three Regions (2010 - 2019)",
+  "desc": "The line graph details the annual number of foreign tourist visits in millions across Europe, Asia-Pacific, and the Americas.",
+  "labels": [
+    "2010",
+    "2012",
+    "2014",
+    "2016",
+    "2018",
+    "2019"
+  ],
+  "datasets": [
+    {
+      "label": "Europe",
+      "data": [
+        485,
+        530,
+        580,
+        615,
+        710,
+        744
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    },
+    {
+      "label": "Asia-Pacific",
+      "data": [
+        205,
+        235,
+        268,
+        305,
+        348,
+        362
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    },
+    {
+      "label": "Americas",
+      "data": [
+        150,
+        162,
+        181,
+        199,
+        216,
+        219
+      ],
+      "borderColor": "#f59e0b",
+      "backgroundColor": "#f59e0b",
+      "tension": 0.3
+    }
+  ]
+}

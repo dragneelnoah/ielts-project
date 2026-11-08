@@ -1,0 +1,33 @@
+{
+  "type": "pie",
+  "title": "Composition of Municipal Solid Waste Before Recycling",
+  "desc": "The chart categorizes total urban household solid waste by material type prior to processing or disposal.",
+  "labels": [
+    "Food & Organic",
+    "Paper & Cardboard",
+    "Plastics",
+    "Glass",
+    "Metals",
+    "Textiles & Rubber"
+  ],
+  "datasets": [
+    {
+      "data": [
+        44,
+        17,
+        12,
+        5,
+        5,
+        17
+      ],
+      "backgroundColor": [
+        "#10b981",
+        "#f59e0b",
+        "#3b82f6",
+        "#06b6d4",
+        "#8b5cf6",
+        "#ec4899"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Metropolitan Mass Transit Operational Data (2022)",
+  "desc": "The table compares annual passenger boardings, network length, and station counts across four major metro systems.",
+  "headers": [
+    "Metro System",
+    "Annual Trips (Billion)",
+    "Track Length (km)",
+    "Number of Stations"
+  ],
+  "rows": [
+    [
+      "Tokyo Subway",
+      "3.1",
+      "304",
+      "290"
+    ],
+    [
+      "Beijing Subway",
+      "3.8",
+      "783",
+      "463"
+    ],
+    [
+      "London Underground",
+      "1.1",
+      "402",
+      "272"
+    ],
+    [
+      "New York Subway",
+      "1.8",
+      "399",
+      "472"
+    ]
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "type": "table",
+  "title": "Fixed Broadband Internet Speeds and Monthly Costs by Country",
+  "desc": "The table compares average download speeds (Mbps) and median monthly package prices in USD.",
+  "headers": [
+    "Country",
+    "Mean Download (Mbps)",
+    "Median Monthly Cost ($)",
+    "Cost per Mbps ($)"
+  ],
+  "rows": [
+    [
+      "Singapore",
+      "255",
+      "38.00",
+      "0.15"
+    ],
+    [
+      "United States",
+      "215",
+      "65.00",
+      "0.30"
+    ],
+    [
+      "Romania",
+      "210",
+      "11.50",
+      "0.05"
+    ],
+    [
+      "United Kingdom",
+      "110",
+      "42.00",
+      "0.38"
+    ],
+    [
+      "South Africa",
+      "45",
+      "48.00",
+      "1.07"
+    ]
+  ]
+}

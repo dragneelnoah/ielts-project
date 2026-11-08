@@ -15,8 +15,8 @@
 </head>
 <body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col font-sans">
 
-    <!-- Top Navigation -->
-    <header class="bg-slate-800 border-b border-slate-700 px-6 py-4 flex items-center justify-between sticky top-0 z-30 shadow-md">
+    <!-- Top Navigation (Starts centered with hidden actions on landing page) -->
+    <header id="app-header" class="bg-slate-800 border-b border-slate-700 px-6 py-4 flex items-center justify-center sticky top-0 z-30 shadow-md transition-all">
         <div class="flex items-center space-x-3">
             <div class="bg-blue-600 p-2 rounded-lg text-white font-bold text-lg shadow">
                 <i class="fa-solid fa-chart-line"></i>
@@ -26,14 +26,14 @@
                 <p class="text-xs text-slate-400">Interactive Data Visualizer for Teachers & Students</p>
             </div>
         </div>
-        <div class="flex items-center space-x-3">
+        <div id="header-actions" class="hidden items-center space-x-3 ml-auto">
             <button id="toggle-drawer-btn" class="bg-slate-700 hover:bg-slate-600 text-slate-200 px-4 py-2 rounded-lg text-sm font-medium transition flex items-center space-x-2 border border-slate-600">
                 <i class="fa-solid fa-sliders"></i>
                 <span>Data & Editor</span>
             </button>
-            <button id="randomize-btn" class="bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-lg text-sm font-medium transition flex items-center space-x-2 shadow">
-                <i class="fa-solid fa-dice"></i>
-                <span>Randomize Prompt</span>
+            <button id="exercise-btn" class="bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-lg text-sm font-medium transition flex items-center space-x-2 shadow">
+                <i class="fa-solid fa-book-open"></i>
+                <span>Exercises</span>
             </button>
         </div>
     </header>
@@ -43,7 +43,7 @@
         <div class="text-center max-w-2xl mx-auto mb-12">
             <span class="bg-blue-900/50 text-blue-400 border border-blue-700/50 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Academic Module</span>
             <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-4 mb-3">Choose Graph Type to Practice</h2>
-            <p class="text-slate-400">Select a data representation format commonly found in IELTS Academic Task 1 tests. Explore premade templates, edit values, or generate random data sets.</p>
+            <p class="text-slate-400">Select a data representation format commonly found in IELTS Academic Task 1 tests. Explore real IELTS exercises, edit values, or practice with custom JSON data.</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -55,7 +55,7 @@
                 <h3 class="text-lg font-bold text-white mb-2">Line Graph</h3>
                 <p class="text-sm text-slate-400 mb-4">Practice trends over time, fluctuations, peaks, and troughs across multiple categories.</p>
                 <span class="text-xs text-blue-400 font-semibold flex items-center space-x-1 group-hover:underline">
-                    <span>Launch Template</span>
+                    <span>Launch Exercises</span>
                     <i class="fa-solid fa-arrow-right"></i>
                 </span>
             </div>
@@ -68,7 +68,7 @@
                 <h3 class="text-lg font-bold text-white mb-2">Bar Chart</h3>
                 <p class="text-sm text-slate-400 mb-4">Compare quantities, rankings, or demographic metrics across discrete categories.</p>
                 <span class="text-xs text-emerald-400 font-semibold flex items-center space-x-1 group-hover:underline">
-                    <span>Launch Template</span>
+                    <span>Launch Exercises</span>
                     <i class="fa-solid fa-arrow-right"></i>
                 </span>
             </div>
@@ -81,7 +81,7 @@
                 <h3 class="text-lg font-bold text-white mb-2">Pie Chart</h3>
                 <p class="text-sm text-slate-400 mb-4">Analyze proportional breakdowns, percentage shares, and compositional distributions.</p>
                 <span class="text-xs text-amber-400 font-semibold flex items-center space-x-1 group-hover:underline">
-                    <span>Launch Template</span>
+                    <span>Launch Exercises</span>
                     <i class="fa-solid fa-arrow-right"></i>
                 </span>
             </div>
@@ -94,7 +94,7 @@
                 <h3 class="text-lg font-bold text-white mb-2">Data Table</h3>
                 <p class="text-sm text-slate-400 mb-4">Examine precise numerical data matrices with multiple rows and columns over years/regions.</p>
                 <span class="text-xs text-purple-400 font-semibold flex items-center space-x-1 group-hover:underline">
-                    <span>Launch Template</span>
+                    <span>Launch Exercises</span>
                     <i class="fa-solid fa-arrow-right"></i>
                 </span>
             </div>
@@ -103,7 +103,7 @@
 
     <!-- Workspace View -->
     <div id="workspace-view" class="flex-1 flex flex-col lg:flex-row hidden relative overflow-hidden">
-        
+
         <!-- Main Graph Area -->
         <main class="flex-1 p-6 flex flex-col max-w-5xl mx-auto w-full">
             <div class="mb-4 flex items-center justify-between">
@@ -120,8 +120,8 @@
                     <i class="fa-solid fa-circle-exclamation"></i>
                     <span>IELTS Academic Task 1 Prompt</span>
                 </div>
-                <h2 id="task-prompt-title" class="text-lg sm:text-xl font-bold text-white mb-2">Global Energy Consumption by Sector (2000 - 2025)</h2>
-                <p id="task-prompt-desc" class="text-slate-300 text-sm leading-relaxed">The chart below illustrates global energy consumption across four primary sectors over a 25-year period. Summarize the information by selecting and reporting the main features, and make comparisons where relevant.</p>
+                <h2 id="task-prompt-title" class="text-lg sm:text-xl font-bold text-white mb-2">Loading Exercise...</h2>
+                <p id="task-prompt-desc" class="text-slate-300 text-sm leading-relaxed">Please wait while the exercise dataset is fetched.</p>
             </div>
 
             <!-- Chart / Table Render Container -->

@@ -1,0 +1,33 @@
+{
+  "type": "bar",
+  "title": "Undergraduate University Enrollment by Major and Gender (2023)",
+  "desc": "The bar chart shows total student numbers enrolled across four academic disciplines split by male and female students.",
+  "labels": [
+    "Computer Science",
+    "Engineering",
+    "Humanities",
+    "Medicine"
+  ],
+  "datasets": [
+    {
+      "label": "Male Students",
+      "data": [
+        4500,
+        5200,
+        2100,
+        3100
+      ],
+      "backgroundColor": "#3b82f6"
+    },
+    {
+      "label": "Female Students",
+      "data": [
+        2100,
+        2300,
+        4800,
+        4200
+      ],
+      "backgroundColor": "#ec4899"
+    }
+  ]
+}

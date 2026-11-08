@@ -1,0 +1,33 @@
+{
+  "type": "pie",
+  "title": "Average Domestic Water Usage Breakdown in Single-Family Homes",
+  "desc": "The chart illustrates the proportional breakdown of indoor water consumption across daily household activities.",
+  "labels": [
+    "Toilet Flushing",
+    "Showers & Baths",
+    "Faucets",
+    "Washing Machine",
+    "Leaks",
+    "Other"
+  ],
+  "datasets": [
+    {
+      "data": [
+        24,
+        20,
+        19,
+        17,
+        12,
+        8
+      ],
+      "backgroundColor": [
+        "#3b82f6",
+        "#06b6d4",
+        "#10b981",
+        "#f59e0b",
+        "#ef4444",
+        "#8b5cf6"
+      ]
+    }
+  ]
+}

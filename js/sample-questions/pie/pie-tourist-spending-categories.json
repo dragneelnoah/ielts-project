@@ -1,0 +1,30 @@
+{
+  "type": "pie",
+  "title": "Average Expenditure Distribution of International Tourists",
+  "desc": "The pie chart summarizes how incoming overseas tourists allocate their holiday budgets during travel.",
+  "labels": [
+    "Accommodation",
+    "Food & Dining",
+    "Shopping",
+    "Local Transport",
+    "Entertainment & Tours"
+  ],
+  "datasets": [
+    {
+      "data": [
+        34,
+        28,
+        18,
+        12,
+        8
+      ],
+      "backgroundColor": [
+        "#8b5cf6",
+        "#f59e0b",
+        "#ec4899",
+        "#3b82f6",
+        "#10b981"
+      ]
+    }
+  ]
+}

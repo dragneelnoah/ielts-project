@@ -1,0 +1,66 @@
+{
+  "type": "line",
+  "title": "Global Carbon Dioxide Emissions by Sector (2000 - 2020)",
+  "desc": "The line graph compares annual CO2 emissions in millions of tonnes across four industrial sectors over a 20-year period.",
+  "labels": [
+    "2000",
+    "2005",
+    "2010",
+    "2015",
+    "2020"
+  ],
+  "datasets": [
+    {
+      "label": "Energy Supply",
+      "data": [
+        42,
+        48,
+        55,
+        60,
+        58
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    },
+    {
+      "label": "Manufacturing",
+      "data": [
+        25,
+        28,
+        30,
+        32,
+        29
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    },
+    {
+      "label": "Transport",
+      "data": [
+        18,
+        22,
+        26,
+        31,
+        35
+      ],
+      "borderColor": "#f59e0b",
+      "backgroundColor": "#f59e0b",
+      "tension": 0.3
+    },
+    {
+      "label": "Agriculture",
+      "data": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "borderColor": "#ec4899",
+      "backgroundColor": "#ec4899",
+      "tension": 0.3
+    }
+  ]
+}

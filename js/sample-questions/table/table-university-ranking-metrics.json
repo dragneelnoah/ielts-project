@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Academic Performance Metrics of Four Top Universities",
+  "desc": "The table presents key institutional metrics including student-to-staff ratios, international student share, and research impact scores.",
+  "headers": [
+    "Institution",
+    "Student-Staff Ratio",
+    "Intl Students (%)",
+    "Research Score /100"
+  ],
+  "rows": [
+    [
+      "University Alpha",
+      "9.2",
+      "38%",
+      "96.4"
+    ],
+    [
+      "University Beta",
+      "11.5",
+      "29%",
+      "92.1"
+    ],
+    [
+      "University Gamma",
+      "8.4",
+      "42%",
+      "98.0"
+    ],
+    [
+      "University Delta",
+      "14.1",
+      "19%",
+      "84.5"
+    ]
+  ]
+}

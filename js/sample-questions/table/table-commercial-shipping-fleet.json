@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Global Merchant Fleet Capacity and Average Vessel Age (2023)",
+  "desc": "The table summarizes merchant shipping capacity measured in Deadweight Tonnage (DWT) and average vessel fleet age.",
+  "headers": [
+    "Vessel Category",
+    "Number of Ships",
+    "Total DWT (Millions)",
+    "Avg Age (Years)"
+  ],
+  "rows": [
+    [
+      "Bulk Carriers",
+      "12800",
+      "940",
+      "11.4"
+    ],
+    [
+      "Oil Tankers",
+      "7100",
+      "630",
+      "12.1"
+    ],
+    [
+      "Container Ships",
+      "5600",
+      "285",
+      "14.2"
+    ],
+    [
+      "General Cargo",
+      "15200",
+      "78",
+      "19.5"
+    ]
+  ]
+}

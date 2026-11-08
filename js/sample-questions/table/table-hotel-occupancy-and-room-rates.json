@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Hotel Occupancy Rates and Average Daily Room Prices by City (2023)",
+  "desc": "The table displays hotel performance indicators across four major international tourist destinations.",
+  "headers": [
+    "Destination City",
+    "Occupancy Rate (%)",
+    "Average Daily Rate ($)",
+    "RevPAR ($)"
+  ],
+  "rows": [
+    [
+      "London",
+      "78.2",
+      "225",
+      "175.95"
+    ],
+    [
+      "Paris",
+      "74.5",
+      "260",
+      "193.70"
+    ],
+    [
+      "New York",
+      "81.6",
+      "295",
+      "240.72"
+    ],
+    [
+      "Tokyo",
+      "72.1",
+      "180",
+      "129.78"
+    ]
+  ]
+}

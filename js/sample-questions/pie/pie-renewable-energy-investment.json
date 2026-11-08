@@ -1,0 +1,30 @@
+{
+  "type": "pie",
+  "title": "Global Clean Energy Investment Allocation by Technology",
+  "desc": "The pie chart details capital investment distribution across clean technology sectors in 2023.",
+  "labels": [
+    "Solar Power",
+    "Wind Energy",
+    "Electric Vehicles & Grids",
+    "Energy Storage",
+    "Hydrogen & Clean Fuel"
+  ],
+  "datasets": [
+    {
+      "data": [
+        43,
+        27,
+        18,
+        8,
+        4
+      ],
+      "backgroundColor": [
+        "#f59e0b",
+        "#3b82f6",
+        "#10b981",
+        "#8b5cf6",
+        "#06b6d4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "type": "line",
+  "title": "Global Freshwater Withdrawal by Usage Sector (1990 - 2020)",
+  "desc": "The line graph measures total annual freshwater usage in billion cubic meters for agriculture, industrial manufacturing, and domestic consumption.",
+  "labels": [
+    "1990",
+    "1995",
+    "2000",
+    "2005",
+    "2010",
+    "2015",
+    "2020"
+  ],
+  "datasets": [
+    {
+      "label": "Agriculture",
+      "data": [
+        2300,
+        2450,
+        2600,
+        2720,
+        2810,
+        2900,
+        2980
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    },
+    {
+      "label": "Industrial",
+      "data": [
+        650,
+        690,
+        730,
+        770,
+        800,
+        820,
+        840
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    },
+    {
+      "label": "Domestic",
+      "data": [
+        320,
+        360,
+        400,
+        440,
+        480,
+        520,
+        560
+      ],
+      "borderColor": "#f59e0b",
+      "backgroundColor": "#f59e0b",
+      "tension": 0.3
+    }
+  ]
+}

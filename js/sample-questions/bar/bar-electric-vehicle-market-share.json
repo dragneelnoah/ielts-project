@@ -1,0 +1,34 @@
+{
+  "type": "bar",
+  "title": "Electric Vehicle Sales Share of New Passenger Cars (2023)",
+  "desc": "The bar chart displays the market share of fully electric vehicles as a percentage of total new vehicle registrations.",
+  "labels": [
+    "Norway",
+    "Iceland",
+    "Sweden",
+    "Netherlands",
+    "China",
+    "United Kingdom"
+  ],
+  "datasets": [
+    {
+      "label": "EV Market Share (%)",
+      "data": [
+        82.4,
+        41.5,
+        32.0,
+        30.8,
+        24.6,
+        16.5
+      ],
+      "backgroundColor": [
+        "#3b82f6",
+        "#3b82f6",
+        "#3b82f6",
+        "#3b82f6",
+        "#3b82f6",
+        "#3b82f6"
+      ]
+    }
+  ]
+}
