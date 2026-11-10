@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Energy Intensity of Seawater Desalination Technologies",
+  "desc": "The table outlines electrical power requirements in kilowatt-hours per cubic meter (kWh/m\u00b3) produced across plant types.",
+  "headers": [
+    "Desalination Tech",
+    "Energy Use (kWh/m\u00b3)",
+    "Thermal Recovery",
+    "Plant Capital Cost ($M/MGD)"
+  ],
+  "rows": [
+    [
+      "Reverse Osmosis (RO)",
+      "3.5",
+      "None",
+      "4.2"
+    ],
+    [
+      "Multi-Stage Flash (MSF)",
+      "14.5",
+      "High",
+      "7.8"
+    ],
+    [
+      "Multi-Effect Distillation",
+      "8.2",
+      "Medium",
+      "6.1"
+    ],
+    [
+      "Electrodialysis Reversal",
+      "4.1",
+      "None",
+      "5.0"
+    ]
+  ]
+}

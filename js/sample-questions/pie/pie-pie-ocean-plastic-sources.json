@@ -1,0 +1,30 @@
+{
+  "type": "pie",
+  "title": "Primary Sources of Macro-Plastic Waste in Oceans",
+  "desc": "The chart depicts proportional origins of marine plastic litter polluting ocean waters.",
+  "labels": [
+    "Single-Use Packaging",
+    "Fishing Gear & Nets",
+    "Textile Microfibers",
+    "Consumer Goods",
+    "Industrial Waste"
+  ],
+  "datasets": [
+    {
+      "data": [
+        48,
+        24,
+        14,
+        9,
+        5
+      ],
+      "backgroundColor": [
+        "#ef4444",
+        "#3b82f6",
+        "#f59e0b",
+        "#8b5cf6",
+        "#64748b"
+      ]
+    }
+  ]
+}

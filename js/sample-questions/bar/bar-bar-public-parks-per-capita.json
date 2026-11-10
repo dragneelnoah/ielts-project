@@ -1,0 +1,34 @@
+{
+  "type": "bar",
+  "title": "Green Space Area per Resident in Square Meters",
+  "desc": "The bar chart compares urban park space in square meters available per city inhabitant across six cities.",
+  "labels": [
+    "Vienna",
+    "Singapore",
+    "Sydney",
+    "London",
+    "Berlin",
+    "Tokyo"
+  ],
+  "datasets": [
+    {
+      "label": "Green Space (m\u00b2/resident)",
+      "data": [
+        120,
+        66,
+        58,
+        45,
+        38,
+        11
+      ],
+      "backgroundColor": [
+        "#10b981",
+        "#10b981",
+        "#10b981",
+        "#3b82f6",
+        "#3b82f6",
+        "#ef4444"
+      ]
+    }
+  ]
+}

@@ -9,32 +9,55 @@
     <!-- Chart.js CDN -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <!-- FontAwesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col font-sans">
 
-    <!-- Top Navigation (Starts centered with hidden actions on landing page) -->
-    <header id="app-header" class="bg-slate-800 border-b border-slate-700 px-6 py-4 flex items-center justify-center sticky top-0 z-30 shadow-md transition-all">
+    <!-- Top Navigation -->
+    <header id="app-header" class="bg-slate-800 border-b border-slate-700 px-6 py-3 flex items-center justify-center sticky top-0 z-30 shadow-md transition-all">
         <div class="flex items-center space-x-3">
-            <div class="bg-blue-600 p-2 rounded-lg text-white font-bold text-lg shadow">
+            <div class="bg-blue-600 p-2 rounded-lg text-white font-bold text-base shadow">
                 <i class="fa-solid fa-chart-line"></i>
             </div>
             <div>
-                <h1 class="text-xl font-bold tracking-tight text-white">IELTS Task 1 Studio</h1>
-                <p class="text-xs text-slate-400">Interactive Data Visualizer for Teachers & Students</p>
+                <h1 class="text-lg font-bold tracking-tight text-white leading-tight">IELTS Task 1 Studio</h1>
+                <p class="text-[11px] text-slate-400">Interactive Data Visualizer for Teachers & Students</p>
             </div>
         </div>
-        <div id="header-actions" class="hidden items-center space-x-3 ml-auto">
-            <button id="toggle-drawer-btn" class="bg-slate-700 hover:bg-slate-600 text-slate-200 px-4 py-2 rounded-lg text-sm font-medium transition flex items-center space-x-2 border border-slate-600">
-                <i class="fa-solid fa-sliders"></i>
-                <span>Data & Editor</span>
+
+        <!-- Header Actions: Collapsible Menu on Mobile, Inline on Desktop -->
+        <div id="header-actions" class="hidden items-center ml-auto relative">
+            <!-- Mobile Menu Trigger Button with Accent Glow -->
+            <button id="mobile-menu-btn" class="lg:hidden bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white p-2 rounded-xl shadow-lg transition flex items-center justify-center space-x-2 border border-blue-400/40 ring-2 ring-blue-500/25">
+                <i class="fa-solid fa-bars-staggered text-sm text-blue-200"></i>
+                <span class="text-xs font-bold tracking-wider">Menu</span>
             </button>
-            <button id="exercise-btn" class="bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-lg text-sm font-medium transition flex items-center space-x-2 shadow">
-                <i class="fa-solid fa-book-open"></i>
-                <span>Exercises</span>
-            </button>
+
+            <!-- Mobile Dropdown Menu (Stacked Vertically) -->
+            <div id="mobile-dropdown" class="hidden absolute right-0 top-14 bg-slate-800 border border-slate-700 rounded-2xl shadow-2xl p-3 flex-col space-y-2.5 z-50 min-w-[220px]">
+                <button id="mobile-toggle-drawer-btn" class="w-full bg-slate-700 hover:bg-slate-600 text-slate-200 px-4 py-2.5 rounded-xl text-sm font-medium transition flex items-center space-x-3 border border-slate-600 text-left">
+                    <i class="fa-solid fa-sliders text-blue-400 w-5"></i>
+                    <span>Data & Editor</span>
+                </button>
+                <button id="mobile-exercise-btn" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2.5 rounded-xl text-sm font-medium transition flex items-center space-x-3 shadow text-left">
+                    <i class="fa-solid fa-book-open text-emerald-200 w-5"></i>
+                    <span>Exercises</span>
+                </button>
+            </div>
+
+            <!-- Desktop Inline Buttons -->
+            <div class="hidden lg:flex items-center space-x-3">
+                <button id="toggle-drawer-btn" class="bg-slate-700 hover:bg-slate-600 text-slate-200 px-3.5 py-2 rounded-lg text-sm font-medium transition flex items-center space-x-2 border border-slate-600">
+                    <i class="fa-solid fa-sliders text-blue-400"></i>
+                    <span>Data & Editor</span>
+                </button>
+                <button id="exercise-btn" class="bg-emerald-600 hover:bg-emerald-500 text-white px-3.5 py-2 rounded-lg text-sm font-medium transition flex items-center space-x-2 shadow">
+                    <i class="fa-solid fa-book-open"></i>
+                    <span>Exercises</span>
+                </button>
+            </div>
         </div>
     </header>
 
@@ -102,31 +125,31 @@
     </div>
 
     <!-- Workspace View -->
-    <div id="workspace-view" class="flex-1 flex flex-col lg:flex-row hidden relative overflow-hidden">
+    <div id="workspace-view" class="flex-1 flex flex-col lg:flex-row hidden relative">
 
         <!-- Main Graph Area -->
-        <main class="flex-1 p-6 flex flex-col max-w-5xl mx-auto w-full">
-            <div class="mb-4 flex items-center justify-between">
+        <main class="flex-1 p-4 lg:p-6 flex flex-col max-w-5xl mx-auto w-full">
+            <div class="mb-3 flex items-center justify-between">
                 <button onclick="app.returnToHome()" class="text-slate-400 hover:text-white text-sm font-medium flex items-center space-x-2 transition">
                     <i class="fa-solid fa-arrow-left"></i>
-                    <span>Back to Graph Selector</span>
+                    <span>Back to Selector</span>
                 </button>
-                <span id="current-type-badge" class="bg-blue-900/60 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold uppercase border border-blue-700">Line Graph</span>
+                <span id="current-type-badge" class="bg-blue-900/60 text-blue-300 px-3 py-0.5 rounded-full text-xs font-semibold uppercase border border-blue-700">Line Graph</span>
             </div>
 
             <!-- IELTS Question Card -->
-            <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 mb-6 shadow-md">
-                <div class="flex items-center space-x-2 text-amber-400 text-xs font-bold uppercase tracking-wider mb-2">
+            <div class="bg-slate-800 border border-slate-700 rounded-xl p-4 lg:p-5 mb-4 shadow-md">
+                <div class="flex items-center space-x-2 text-amber-400 text-xs font-bold uppercase tracking-wider mb-1">
                     <i class="fa-solid fa-circle-exclamation"></i>
                     <span>IELTS Academic Task 1 Prompt</span>
                 </div>
-                <h2 id="task-prompt-title" class="text-lg sm:text-xl font-bold text-white mb-2">Loading Exercise...</h2>
-                <p id="task-prompt-desc" class="text-slate-300 text-sm leading-relaxed">Please wait while the exercise dataset is fetched.</p>
+                <h2 id="task-prompt-title" class="text-base sm:text-lg font-bold text-white mb-1">Loading Exercise...</h2>
+                <p id="task-prompt-desc" class="text-slate-300 text-xs lg:text-sm leading-relaxed">Please wait while the exercise dataset is fetched.</p>
             </div>
 
             <!-- Chart / Table Render Container -->
-            <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 flex-1 flex flex-col justify-center items-center shadow-lg relative min-h-[420px]">
-                <div class="w-full h-full flex items-center justify-center" id="chart-container-wrapper">
+            <div class="bg-slate-800 border border-slate-700 rounded-2xl p-4 lg:p-6 flex-1 flex flex-col justify-center items-center shadow-lg relative min-h-[420px]">
+                <div class="w-full h-[400px] flex items-center justify-center relative" id="chart-container-wrapper">
                     <canvas id="ieltsChart"></canvas>
                 </div>
                 <div class="w-full overflow-x-auto hidden" id="table-container-wrapper">
@@ -137,11 +160,11 @@
         </main>
 
         <!-- Collapsible Editor Drawer -->
-        <aside id="editor-drawer" class="w-full lg:w-96 bg-slate-800 border-l border-slate-700 flex flex-col h-auto lg:h-[calc(100vh-73px)] shadow-2xl z-20 transition-all duration-300">
+        <aside id="editor-drawer" class="w-full lg:w-96 bg-slate-800 border-l border-slate-700 flex flex-col shadow-2xl z-20 transition-all duration-300">
             <div class="p-4 border-b border-slate-700 flex items-center justify-between bg-slate-850">
                 <div class="flex items-center space-x-2">
                     <i class="fa-solid fa-sliders text-blue-400"></i>
-                    <h3 class="font-bold text-white">Data & Prompt Editor</h3>
+                    <h3 class="font-bold text-white text-sm">Data & Prompt Editor</h3>
                 </div>
                 <button onclick="app.toggleDrawer()" class="text-slate-400 hover:text-white lg:hidden">
                     <i class="fa-solid fa-xmark text-lg"></i>
@@ -149,18 +172,18 @@
             </div>
 
             <div class="flex border-b border-slate-700 bg-slate-900/50">
-                <button onclick="app.switchTab('form')" id="tab-form" class="flex-1 py-3 text-xs font-bold uppercase tracking-wider text-blue-400 border-b-2 border-blue-500 transition">Click & Tweak</button>
-                <button onclick="app.switchTab('json')" id="tab-json" class="flex-1 py-3 text-xs font-bold uppercase tracking-wider text-slate-400 hover:text-slate-200 transition">Raw JSON</button>
+                <button onclick="app.switchTab('form')" id="tab-form" class="flex-1 py-2.5 text-xs font-bold uppercase tracking-wider text-blue-400 border-b-2 border-blue-500 transition">Click & Tweak</button>
+                <button onclick="app.switchTab('json')" id="tab-json" class="flex-1 py-2.5 text-xs font-bold uppercase tracking-wider text-slate-400 hover:text-slate-200 transition">Raw JSON</button>
             </div>
 
-            <div class="flex-1 overflow-y-auto p-4 space-y-6">
-                <div id="panel-form" class="space-y-4">
+            <div class="flex-1 overflow-y-auto p-4 space-y-4">
+                <div id="panel-form" class="space-y-3">
                     <div>
-                        <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Prompt Title</label>
+                        <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1.5">Prompt Title</label>
                         <input type="text" id="input-title" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-blue-500">
                     </div>
                     <div>
-                        <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Prompt Description</label>
+                        <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1.5">Prompt Description</label>
                         <textarea id="input-desc" rows="3" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-blue-500"></textarea>
                     </div>
 
@@ -175,15 +198,15 @@
                     </div>
                 </div>
 
-                <div id="panel-json" class="space-y-4 hidden">
+                <div id="panel-json" class="space-y-3 hidden">
                     <p class="text-xs text-slate-400">Edit the underlying JSON data structure directly. Click "Apply JSON" to update the graph instantly.</p>
-                    <textarea id="input-json-raw" rows="18" class="w-full bg-slate-950 font-mono text-xs text-emerald-400 p-3 rounded-lg border border-slate-700 focus:outline-none focus:border-blue-500"></textarea>
+                    <textarea id="input-json-raw" rows="16" class="w-full bg-slate-950 font-mono text-xs text-emerald-400 p-3 rounded-lg border border-slate-700 focus:outline-none focus:border-blue-500"></textarea>
                     <button onclick="app.applyJson()" class="w-full bg-blue-600 hover:bg-blue-500 text-white py-2.5 rounded-lg text-sm font-semibold transition shadow">Apply JSON Changes</button>
                 </div>
             </div>
 
             <div class="p-4 border-t border-slate-700 bg-slate-850">
-                <button onclick="app.updateChartFromForm()" class="w-full bg-blue-600 hover:bg-blue-500 text-white py-3 rounded-xl font-semibold text-sm transition shadow-lg flex items-center justify-center space-x-2">
+                <button onclick="app.updateChartFromForm()" class="w-full bg-blue-600 hover:bg-blue-500 text-white py-2.5 rounded-xl font-semibold text-sm transition shadow-lg flex items-center justify-center space-x-2">
                     <i class="fa-solid fa-rotate"></i>
                     <span>Update Graph</span>
                 </button>
@@ -191,7 +214,8 @@
         </aside>
     </div>
 
-    <footer class="bg-slate-850 border-t border-slate-800 text-center py-4 text-xs text-slate-500">
+    <!-- Footer -->
+    <footer id="app-footer" class="bg-slate-850 border-t border-slate-800 text-center py-3 text-xs text-slate-500">
         IELTS Academic Task 1 Practice Studio &bull; Built for English Teachers & Students
     </footer>
 

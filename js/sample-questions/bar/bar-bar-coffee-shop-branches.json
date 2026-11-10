@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Number of Outlets for Major Commercial Coffee Chains",
+  "desc": "The bar chart displays retail store counts worldwide for five major coffeehouse chains.",
+  "labels": [
+    "Chain A",
+    "Chain B",
+    "Chain C",
+    "Chain D",
+    "Chain E"
+  ],
+  "datasets": [
+    {
+      "label": "Global Store Outlets",
+      "data": [
+        38038,
+        28000,
+        7100,
+        3500,
+        2200
+      ],
+      "backgroundColor": [
+        "#10b981",
+        "#3b82f6",
+        "#f59e0b",
+        "#ec4899",
+        "#8b5cf6"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Brand Value of Leading Global Luxury Houses ($ Billions)",
+  "desc": "The chart depicts market brand valuation estimates for prominent fashion houses.",
+  "labels": [
+    "Brand L",
+    "Brand G",
+    "Brand H",
+    "Brand C",
+    "Brand P"
+  ],
+  "datasets": [
+    {
+      "label": "Brand Value ($ Billions)",
+      "data": [
+        124.2,
+        37.9,
+        36.4,
+        19.4,
+        15.8
+      ],
+      "backgroundColor": [
+        "#f59e0b",
+        "#ec4899",
+        "#8b5cf6",
+        "#3b82f6",
+        "#10b981"
+      ]
+    }
+  ]
+}

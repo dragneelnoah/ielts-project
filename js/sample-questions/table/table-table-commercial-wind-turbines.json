@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Technical Specifications of Offshore Wind Turbines",
+  "desc": "The table compares rated capacity in Megawatts (MW), rotor diameter (meters), and hub height for offshore turbines.",
+  "headers": [
+    "Turbine Model",
+    "Rated Capacity (MW)",
+    "Rotor Diameter (m)",
+    "Hub Height (m)"
+  ],
+  "rows": [
+    [
+      "Vestas V236",
+      "15.0",
+      "236",
+      "150"
+    ],
+    [
+      "Siemens Gamesa SG 14",
+      "14.0",
+      "222",
+      "140"
+    ],
+    [
+      "Mingyang MySE 16",
+      "16.0",
+      "242",
+      "155"
+    ],
+    [
+      "GE Haliade-X",
+      "13.0",
+      "220",
+      "138"
+    ]
+  ]
+}

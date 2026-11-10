@@ -1,0 +1,71 @@
+{
+  "type": "line",
+  "title": "Annual Book Units Sold by Publishing Format (2011 - 2021)",
+  "desc": "The graph details print book, e-book, and audiobook volume in millions of units sold in North America.",
+  "labels": [
+    "2011",
+    "2013",
+    "2015",
+    "2017",
+    "2019",
+    "2021"
+  ],
+  "datasets": [
+    {
+      "label": "Hardcover Print",
+      "data": [
+        220,
+        215,
+        210,
+        218,
+        225,
+        240
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    },
+    {
+      "label": "Paperback Print",
+      "data": [
+        340,
+        325,
+        310,
+        315,
+        330,
+        360
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    },
+    {
+      "label": "E-Books",
+      "data": [
+        160,
+        210,
+        204,
+        180,
+        170,
+        190
+      ],
+      "borderColor": "#f59e0b",
+      "backgroundColor": "#f59e0b",
+      "tension": 0.3
+    },
+    {
+      "label": "Audiobooks",
+      "data": [
+        12,
+        18,
+        30,
+        52,
+        85,
+        130
+      ],
+      "borderColor": "#8b5cf6",
+      "backgroundColor": "#8b5cf6",
+      "tension": 0.3
+    }
+  ]
+}

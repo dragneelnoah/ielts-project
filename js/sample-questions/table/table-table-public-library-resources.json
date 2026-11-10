@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Public Library System Physical and Digital Collection Data",
+  "desc": "The table details physical book holdings, e-book licenses, and annual circulation totals across five library networks.",
+  "headers": [
+    "Library System",
+    "Physical Volumes (M)",
+    "E-Book Titles (K)",
+    "Annual Circulation (M)"
+  ],
+  "rows": [
+    [
+      "City Central Library",
+      "2.8",
+      "450",
+      "8.9"
+    ],
+    [
+      "County Library West",
+      "1.9",
+      "320",
+      "5.4"
+    ],
+    [
+      "Suburban District Network",
+      "1.2",
+      "210",
+      "3.8"
+    ],
+    [
+      "Metro East Library",
+      "3.1",
+      "580",
+      "11.2"
+    ]
+  ]
+}

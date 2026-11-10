@@ -1,0 +1,43 @@
+{
+  "type": "table",
+  "title": "National Park Area and Annual Visitor Numbers",
+  "desc": "The table presents total land area in square kilometers and annual recreational visitor counts for major national parks.",
+  "headers": [
+    "National Park",
+    "Land Area (km\u00b2)",
+    "Annual Visitors (M)",
+    "Campground Units"
+  ],
+  "rows": [
+    [
+      "Yellowstone",
+      "8983",
+      "3.3",
+      "2150"
+    ],
+    [
+      "Yosemite",
+      "3081",
+      "3.7",
+      "1500"
+    ],
+    [
+      "Grand Canyon",
+      "4926",
+      "4.7",
+      "1100"
+    ],
+    [
+      "Zion",
+      "595",
+      "4.7",
+      "470"
+    ],
+    [
+      "Great Smoky Mountains",
+      "2114",
+      "12.9",
+      "1000"
+    ]
+  ]
+}

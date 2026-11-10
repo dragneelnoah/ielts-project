@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Public EV Charging Network Station Counts and Speeds",
+  "desc": "The table details total charging locations, high-speed DC fast charger ports, and network reliability percentages.",
+  "headers": [
+    "Charging Network",
+    "Total Locations",
+    "DC Fast Ports",
+    "Network Uptime (%)"
+  ],
+  "rows": [
+    [
+      "Network A",
+      "5800",
+      "38000",
+      "99.2"
+    ],
+    [
+      "Network B",
+      "950",
+      "4200",
+      "94.5"
+    ],
+    [
+      "Network C",
+      "1200",
+      "7500",
+      "92.1"
+    ],
+    [
+      "Network D",
+      "8500",
+      "12000",
+      "96.8"
+    ]
+  ]
+}

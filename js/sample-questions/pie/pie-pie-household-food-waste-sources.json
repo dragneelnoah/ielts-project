@@ -1,0 +1,33 @@
+{
+  "type": "pie",
+  "title": "Breakdown of Household Food Waste by Category",
+  "desc": "The chart details the proportional volume of wasted food items thrown away in urban residential homes.",
+  "labels": [
+    "Fresh Produce (Fruits/Veg)",
+    "Bread & Bakery",
+    "Cooked Leftovers",
+    "Dairy Products",
+    "Meat & Fish",
+    "Packaged Goods"
+  ],
+  "datasets": [
+    {
+      "data": [
+        42,
+        19,
+        15,
+        11,
+        8,
+        5
+      ],
+      "backgroundColor": [
+        "#10b981",
+        "#f59e0b",
+        "#ef4444",
+        "#3b82f6",
+        "#ec4899",
+        "#64748b"
+      ]
+    }
+  ]
+}

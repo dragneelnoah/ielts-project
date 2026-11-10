@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Number of Artificial Intelligence Patents Granted",
+  "desc": "The bar chart details corporate patent grants issued by patent offices in a single operational year.",
+  "labels": [
+    "Company A",
+    "Company B",
+    "Company C",
+    "Company D",
+    "Company E"
+  ],
+  "datasets": [
+    {
+      "label": "Patents Granted",
+      "data": [
+        4680,
+        3940,
+        2850,
+        2410,
+        1980
+      ],
+      "backgroundColor": [
+        "#3b82f6",
+        "#10b981",
+        "#8b5cf6",
+        "#f59e0b",
+        "#ec4899"
+      ]
+    }
+  ]
+}

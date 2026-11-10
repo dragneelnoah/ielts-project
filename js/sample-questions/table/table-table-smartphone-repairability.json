@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Smartphone Hardware Repairability and Component Scores",
+  "desc": "The table provides independent repairability scores out of 10 and screen replacement cost estimates for smartphones.",
+  "headers": [
+    "Smartphone Model",
+    "Repair Score (/10)",
+    "Screen Replacement ($)",
+    "Battery Replacement ($)"
+  ],
+  "rows": [
+    [
+      "Fairphone 5",
+      "10.0",
+      "95",
+      "40"
+    ],
+    [
+      "Google Pixel 8",
+      "6.0",
+      "219",
+      "49"
+    ],
+    [
+      "Samsung Galaxy S24",
+      "4.0",
+      "289",
+      "55"
+    ],
+    [
+      "Apple iPhone 15",
+      "4.0",
+      "279",
+      "99"
+    ]
+  ]
+}

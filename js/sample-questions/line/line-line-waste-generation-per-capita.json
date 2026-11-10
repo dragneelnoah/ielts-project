@@ -1,0 +1,53 @@
+{
+  "type": "line",
+  "title": "Daily Municipal Waste Generated per Person (2000 - 2020)",
+  "desc": "The chart compares daily solid waste creation in kilograms per citizen across three country income tiers.",
+  "labels": [
+    "2000",
+    "2005",
+    "2010",
+    "2015",
+    "2020"
+  ],
+  "datasets": [
+    {
+      "label": "High Income",
+      "data": [
+        1.85,
+        1.9,
+        1.88,
+        1.82,
+        1.76
+      ],
+      "borderColor": "#ef4444",
+      "backgroundColor": "#ef4444",
+      "tension": 0.3
+    },
+    {
+      "label": "Upper Middle Income",
+      "data": [
+        0.72,
+        0.85,
+        0.98,
+        1.12,
+        1.25
+      ],
+      "borderColor": "#f59e0b",
+      "backgroundColor": "#f59e0b",
+      "tension": 0.3
+    },
+    {
+      "label": "Low Income",
+      "data": [
+        0.41,
+        0.44,
+        0.48,
+        0.51,
+        0.55
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    }
+  ]
+}

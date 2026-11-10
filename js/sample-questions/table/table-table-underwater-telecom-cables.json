@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Transoceanic Subsea Fiber Optic Cable Systems",
+  "desc": "The table compares subsea telecommunications cable system length (km), design capacity (Terabits/sec), and landing points.",
+  "headers": [
+    "Subsea Cable System",
+    "Cable Length (km)",
+    "Design Capacity (Tbps)",
+    "Landing Stations"
+  ],
+  "rows": [
+    [
+      "Trans-Atlantic System 1",
+      "6600",
+      "250",
+      "4"
+    ],
+    [
+      "Trans-Pacific System 2",
+      "14000",
+      "140",
+      "5"
+    ],
+    [
+      "Asia-Europe Link",
+      "25000",
+      "180",
+      "19"
+    ],
+    [
+      "Americas Ring Cable",
+      "10500",
+      "120",
+      "12"
+    ]
+  ]
+}

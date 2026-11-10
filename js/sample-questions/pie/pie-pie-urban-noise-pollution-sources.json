@@ -1,0 +1,30 @@
+{
+  "type": "pie",
+  "title": "Primary Sources of Urban Noise Complaints in Metropolises",
+  "desc": "The pie chart categorizes acoustic disturbance reports submitted by residents to municipal authorities.",
+  "labels": [
+    "Road Traffic Noise",
+    "Construction Activity",
+    "Commercial Venues (Bars/Clubs)",
+    "Neighbors & Domestic",
+    "Rail & Aircraft"
+  ],
+  "datasets": [
+    {
+      "data": [
+        44,
+        23,
+        16,
+        11,
+        6
+      ],
+      "backgroundColor": [
+        "#ef4444",
+        "#f59e0b",
+        "#ec4899",
+        "#8b5cf6",
+        "#3b82f6"
+      ]
+    }
+  ]
+}

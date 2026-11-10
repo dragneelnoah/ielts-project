@@ -1,0 +1,30 @@
+{
+  "type": "pie",
+  "title": "Alumni Financial Contribution Purpose Allocation",
+  "desc": "The pie chart details how university alumni charitable donations are allocated by institutions.",
+  "labels": [
+    "Student Scholarships",
+    "Research Grants",
+    "Campus Facilities & Buildings",
+    "Athletics",
+    "Faculty Chairs"
+  ],
+  "datasets": [
+    {
+      "data": [
+        43,
+        24,
+        17,
+        10,
+        6
+      ],
+      "backgroundColor": [
+        "#10b981",
+        "#3b82f6",
+        "#f59e0b",
+        "#ef4444",
+        "#8b5cf6"
+      ]
+    }
+  ]
+}

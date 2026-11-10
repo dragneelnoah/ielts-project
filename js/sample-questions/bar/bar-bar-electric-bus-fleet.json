@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Municipal Electric Buses Operational in Fleet",
+  "desc": "The bar chart outlines public transit electric bus adoption numbers across five progressive cities.",
+  "labels": [
+    "City Alpha",
+    "City Beta",
+    "City Gamma",
+    "City Delta",
+    "City Epsilon"
+  ],
+  "datasets": [
+    {
+      "label": "Electric Buses in Service",
+      "data": [
+        16000,
+        1200,
+        850,
+        620,
+        410
+      ],
+      "backgroundColor": [
+        "#10b981",
+        "#3b82f6",
+        "#06b6d4",
+        "#f59e0b",
+        "#ec4899"
+      ]
+    }
+  ]
+}

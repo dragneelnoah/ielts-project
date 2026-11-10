@@ -1,0 +1,33 @@
+{
+  "type": "pie",
+  "title": "Pharma R&D Expenditure Allocation by Therapeutic Area",
+  "desc": "The chart illustrates capital investment distribution for new medical drug development programs.",
+  "labels": [
+    "Oncology (Cancer)",
+    "Infectious Diseases",
+    "Neurology & CNS",
+    "Cardiovascular",
+    "Immunology",
+    "Rare Diseases"
+  ],
+  "datasets": [
+    {
+      "data": [
+        34,
+        18,
+        15,
+        13,
+        12,
+        8
+      ],
+      "backgroundColor": [
+        "#ef4444",
+        "#3b82f6",
+        "#8b5cf6",
+        "#10b981",
+        "#f59e0b",
+        "#ec4899"
+      ]
+    }
+  ]
+}

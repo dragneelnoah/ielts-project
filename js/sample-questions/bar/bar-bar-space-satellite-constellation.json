@@ -1,0 +1,28 @@
+{
+  "type": "bar",
+  "title": "Active Satellites in Low Earth Orbit by Operator",
+  "desc": "The chart details commercial and government communications satellites orbiting Earth.",
+  "labels": [
+    "Operator A",
+    "Operator B",
+    "Operator C",
+    "Operator D"
+  ],
+  "datasets": [
+    {
+      "label": "Active Satellites",
+      "data": [
+        5400,
+        630,
+        290,
+        180
+      ],
+      "backgroundColor": [
+        "#3b82f6",
+        "#8b5cf6",
+        "#10b981",
+        "#f59e0b"
+      ]
+    }
+  ]
+}

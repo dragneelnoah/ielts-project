@@ -1,0 +1,30 @@
+{
+  "type": "pie",
+  "title": "Methods Used by Consumers to Dispose of Unwanted Clothing",
+  "desc": "The chart outlines how survey respondents handle pre-owned garments and textiles.",
+  "labels": [
+    "Trash / Landfill",
+    "Donated to Charity",
+    "Passed to Friends/Family",
+    "Resold Online",
+    "Recycled at Drop-off"
+  ],
+  "datasets": [
+    {
+      "data": [
+        45,
+        25,
+        14,
+        11,
+        5
+      ],
+      "backgroundColor": [
+        "#ef4444",
+        "#10b981",
+        "#3b82f6",
+        "#f59e0b",
+        "#8b5cf6"
+      ]
+    }
+  ]
+}

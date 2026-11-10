@@ -1,0 +1,57 @@
+{
+  "type": "line",
+  "title": "Recorded Music Industry Revenue by Format (2012 - 2022)",
+  "desc": "The line graph measures global music industry revenue in billion USD from streaming services, physical sales, and digital downloads.",
+  "labels": [
+    "2012",
+    "2014",
+    "2016",
+    "2018",
+    "2020",
+    "2022"
+  ],
+  "datasets": [
+    {
+      "label": "Streaming",
+      "data": [
+        1.0,
+        1.9,
+        4.6,
+        8.9,
+        13.4,
+        17.5
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    },
+    {
+      "label": "Physical Formats",
+      "data": [
+        7.5,
+        6.0,
+        5.4,
+        4.7,
+        4.3,
+        4.6
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    },
+    {
+      "label": "Digital Downloads",
+      "data": [
+        3.7,
+        3.2,
+        2.4,
+        1.4,
+        0.9,
+        0.6
+      ],
+      "borderColor": "#ef4444",
+      "backgroundColor": "#ef4444",
+      "tension": 0.3
+    }
+  ]
+}

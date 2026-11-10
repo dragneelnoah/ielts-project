@@ -1,0 +1,53 @@
+{
+  "type": "line",
+  "title": "Meat Consumption per Person by Type (1980 - 2020)",
+  "desc": "The line chart tracks average annual consumption of beef, poultry, and pork in kilograms per individual in North America.",
+  "labels": [
+    "1980",
+    "1990",
+    "2000",
+    "2010",
+    "2020"
+  ],
+  "datasets": [
+    {
+      "label": "Poultry",
+      "data": [
+        24,
+        32,
+        41,
+        46,
+        53
+      ],
+      "borderColor": "#f59e0b",
+      "backgroundColor": "#f59e0b",
+      "tension": 0.3
+    },
+    {
+      "label": "Beef",
+      "data": [
+        48,
+        40,
+        35,
+        29,
+        26
+      ],
+      "borderColor": "#ef4444",
+      "backgroundColor": "#ef4444",
+      "tension": 0.3
+    },
+    {
+      "label": "Pork",
+      "data": [
+        28,
+        27,
+        26,
+        25,
+        24
+      ],
+      "borderColor": "#ec4899",
+      "backgroundColor": "#ec4899",
+      "tension": 0.3
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "pie",
+  "title": "Item Borrowing Distribution at Metropolitan Public Libraries",
+  "desc": "The pie chart outlines physical and digital materials checked out by library patrons.",
+  "labels": [
+    "Print Fiction Books",
+    "Print Non-Fiction",
+    "Children's Literature",
+    "Digital Audiobooks",
+    "E-Books",
+    "DVDs & Media"
+  ],
+  "datasets": [
+    {
+      "data": [
+        31,
+        22,
+        19,
+        13,
+        11,
+        4
+      ],
+      "backgroundColor": [
+        "#3b82f6",
+        "#10b981",
+        "#f59e0b",
+        "#8b5cf6",
+        "#ec4899",
+        "#64748b"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "type": "table",
+  "title": "Certified Organic Agricultural Land and Farmer Numbers",
+  "desc": "The table presents certified organic farmland area in hectares alongside registered producer counts.",
+  "headers": [
+    "Country",
+    "Organic Land (M ha)",
+    "Organic Share of Farm Land (%)",
+    "Certified Producers"
+  ],
+  "rows": [
+    [
+      "Australia",
+      "35.7",
+      "9.9",
+      "1850"
+    ],
+    [
+      "Argentina",
+      "4.5",
+      "3.2",
+      "1320"
+    ],
+    [
+      "France",
+      "2.8",
+      "10.7",
+      "58400"
+    ],
+    [
+      "India",
+      "2.6",
+      "1.5",
+      "1600000"
+    ],
+    [
+      "United States",
+      "2.3",
+      "0.6",
+      "17400"
+    ]
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Metropolitan Transit Rail Car Fleet Operational Data",
+  "desc": "The table outlines fleet size, average vehicle age (years), and fleet reliability measured in Mean Distance Between Failures (MDBF).",
+  "headers": [
+    "Transit System",
+    "Rail Car Fleet Size",
+    "Avg Car Age (Years)",
+    "MDBF (Miles)"
+  ],
+  "rows": [
+    [
+      "NYC Transit",
+      "6500",
+      "22.4",
+      "145000"
+    ],
+    [
+      "London Underground",
+      "4100",
+      "18.2",
+      "82000"
+    ],
+    [
+      "Tokyo Metro",
+      "2700",
+      "11.5",
+      "320000"
+    ],
+    [
+      "Hong Kong MTR",
+      "1900",
+      "9.8",
+      "520000"
+    ]
+  ]
+}

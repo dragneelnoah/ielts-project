@@ -1,0 +1,49 @@
+{
+  "type": "line",
+  "title": "Total Forested Area in Million Hectares (1990 - 2020)",
+  "desc": "The chart outlines net changes in forest coverage across South America, Temperate Asia, and Europe.",
+  "labels": [
+    "1990",
+    "2000",
+    "2010",
+    "2020"
+  ],
+  "datasets": [
+    {
+      "label": "South America",
+      "data": [
+        973,
+        923,
+        870,
+        844
+      ],
+      "borderColor": "#ef4444",
+      "backgroundColor": "#ef4444",
+      "tension": 0.3
+    },
+    {
+      "label": "Europe",
+      "data": [
+        921,
+        952,
+        978,
+        998
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    },
+    {
+      "label": "Temperate Asia",
+      "data": [
+        209,
+        226,
+        254,
+        278
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    }
+  ]
+}

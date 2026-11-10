@@ -1,0 +1,40 @@
+{
+  "type": "line",
+  "title": "Annual Apparel Sales Volume (2015 - 2023)",
+  "desc": "The line graph compares clothing units sold in millions across discount fast fashion chains versus sustainable brands.",
+  "labels": [
+    "2015",
+    "2017",
+    "2019",
+    "2021",
+    "2023"
+  ],
+  "datasets": [
+    {
+      "label": "Fast Fashion Brands",
+      "data": [
+        120,
+        155,
+        190,
+        175,
+        210
+      ],
+      "borderColor": "#ef4444",
+      "backgroundColor": "#ef4444",
+      "tension": 0.3
+    },
+    {
+      "label": "Sustainable Apparel",
+      "data": [
+        15,
+        22,
+        38,
+        54,
+        78
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    }
+  ]
+}

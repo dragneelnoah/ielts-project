@@ -1,0 +1,49 @@
+{
+  "type": "table",
+  "title": "Price-to-Income Housing Affordability Ratio in Major Cities",
+  "desc": "The table compares median home prices, median annual household income, and price-to-income multiples across metropolitan markets.",
+  "headers": [
+    "Metropolitan Area",
+    "Median Home Price ($)",
+    "Median Income ($)",
+    "Price-to-Income Ratio"
+  ],
+  "rows": [
+    [
+      "Hong Kong",
+      "1250000",
+      "67000",
+      "18.7"
+    ],
+    [
+      "Sydney",
+      "890000",
+      "68000",
+      "13.1"
+    ],
+    [
+      "Vancouver",
+      "920000",
+      "71000",
+      "12.9"
+    ],
+    [
+      "London",
+      "650000",
+      "52000",
+      "12.5"
+    ],
+    [
+      "Chicago",
+      "310000",
+      "68000",
+      "4.6"
+    ],
+    [
+      "Houston",
+      "285000",
+      "65000",
+      "4.4"
+    ]
+  ]
+}

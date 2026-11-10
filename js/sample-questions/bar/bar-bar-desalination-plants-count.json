@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Number of Large-Scale Seawater Desalination Facilities",
+  "desc": "The bar chart details operational coastal desalination plant counts across five arid countries.",
+  "labels": [
+    "Saudi Arabia",
+    "UAE",
+    "Spain",
+    "Kuwait",
+    "Australia"
+  ],
+  "datasets": [
+    {
+      "label": "Desalination Facilities",
+      "data": [
+        33,
+        26,
+        18,
+        12,
+        10
+      ],
+      "backgroundColor": [
+        "#f59e0b",
+        "#f59e0b",
+        "#3b82f6",
+        "#f59e0b",
+        "#06b6d4"
+      ]
+    }
+  ]
+}

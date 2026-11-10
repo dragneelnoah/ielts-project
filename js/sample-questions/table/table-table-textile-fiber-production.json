@@ -1,0 +1,43 @@
+{
+  "type": "table",
+  "title": "Global Textile Fiber Production Tonnage and Market Share",
+  "desc": "The table outlines annual production volume in million metric tons (MMT) across natural and synthetic fiber types.",
+  "headers": [
+    "Fiber Type",
+    "Annual Output (MMT)",
+    "Market Share (%)",
+    "Avg Wholesale Price ($/kg)"
+  ],
+  "rows": [
+    [
+      "Polyester",
+      "60.5",
+      "54.0",
+      "1.25"
+    ],
+    [
+      "Cotton",
+      "25.2",
+      "22.5",
+      "2.10"
+    ],
+    [
+      "Nylon / Polyamide",
+      "5.8",
+      "5.2",
+      "3.40"
+    ],
+    [
+      "Cellulosic / Rayon",
+      "7.1",
+      "6.3",
+      "2.05"
+    ],
+    [
+      "Wool",
+      "1.0",
+      "0.9",
+      "9.80"
+    ]
+  ]
+}

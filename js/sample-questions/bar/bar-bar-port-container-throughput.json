@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Annual Shipping Container Volume in TEUs",
+  "desc": "The chart measures Twenty-Foot Equivalent Unit (TEU) container throughput in millions for busy ports.",
+  "labels": [
+    "Shanghai",
+    "Singapore",
+    "Ningbo-Zhoushan",
+    "Shenzhen",
+    "Qingdao"
+  ],
+  "datasets": [
+    {
+      "label": "Throughput (Million TEUs)",
+      "data": [
+        47.3,
+        37.3,
+        33.4,
+        30.0,
+        25.7
+      ],
+      "backgroundColor": [
+        "#ef4444",
+        "#ef4444",
+        "#ef4444",
+        "#ef4444",
+        "#3b82f6"
+      ]
+    }
+  ]
+}

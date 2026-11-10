@@ -1,0 +1,30 @@
+{
+  "type": "pie",
+  "title": "Packaging Material Consumption in FMCG Industry",
+  "desc": "The chart illustrates proportional weight distribution of packaging materials used for fast-moving consumer goods.",
+  "labels": [
+    "Paper & Cardboard",
+    "Rigid Plastics",
+    "Flexible Plastics",
+    "Glass",
+    "Metals"
+  ],
+  "datasets": [
+    {
+      "data": [
+        36,
+        26,
+        18,
+        12,
+        8
+      ],
+      "backgroundColor": [
+        "#f59e0b",
+        "#3b82f6",
+        "#06b6d4",
+        "#10b981",
+        "#64748b"
+      ]
+    }
+  ]
+}

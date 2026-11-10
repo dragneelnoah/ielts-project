@@ -1,0 +1,27 @@
+{
+  "type": "pie",
+  "title": "Sales Channel Share for Major Quick Service Restaurants",
+  "desc": "The chart breaks down fast food customer order placement channels.",
+  "labels": [
+    "Drive-Thru",
+    "Mobile App / Delivery",
+    "In-Store Counter",
+    "Kiosk Ordering"
+  ],
+  "datasets": [
+    {
+      "data": [
+        46,
+        27,
+        18,
+        9
+      ],
+      "backgroundColor": [
+        "#f59e0b",
+        "#3b82f6",
+        "#10b981",
+        "#8b5cf6"
+      ]
+    }
+  ]
+}

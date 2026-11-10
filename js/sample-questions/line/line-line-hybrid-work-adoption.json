@@ -1,0 +1,57 @@
+{
+  "type": "line",
+  "title": "Percentage of Employees Working Remotely (2019 - 2024)",
+  "desc": "The line graph tracks the share of knowledge workers engaging in hybrid or remote work arrangements across three economic sectors.",
+  "labels": [
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "datasets": [
+    {
+      "label": "Technology",
+      "data": [
+        18,
+        85,
+        78,
+        65,
+        60,
+        58
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    },
+    {
+      "label": "Finance",
+      "data": [
+        10,
+        72,
+        60,
+        48,
+        42,
+        40
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    },
+    {
+      "label": "Education",
+      "data": [
+        5,
+        90,
+        55,
+        25,
+        18,
+        15
+      ],
+      "borderColor": "#f59e0b",
+      "backgroundColor": "#f59e0b",
+      "tension": 0.3
+    }
+  ]
+}

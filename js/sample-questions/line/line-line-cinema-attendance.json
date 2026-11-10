@@ -1,0 +1,71 @@
+{
+  "type": "line",
+  "title": "Annual Cinema Attendance by Age Group (2005 - 2020)",
+  "desc": "The line graph details the percentage of people attending a movie theater at least once a month across four demographic groups.",
+  "labels": [
+    "2005",
+    "2008",
+    "2011",
+    "2014",
+    "2017",
+    "2020"
+  ],
+  "datasets": [
+    {
+      "label": "15-24 years",
+      "data": [
+        78,
+        81,
+        75,
+        68,
+        62,
+        38
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    },
+    {
+      "label": "25-44 years",
+      "data": [
+        55,
+        58,
+        56,
+        52,
+        49,
+        29
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    },
+    {
+      "label": "45-64 years",
+      "data": [
+        32,
+        34,
+        33,
+        31,
+        30,
+        18
+      ],
+      "borderColor": "#8b5cf6",
+      "backgroundColor": "#8b5cf6",
+      "tension": 0.3
+    },
+    {
+      "label": "65+ years",
+      "data": [
+        15,
+        16,
+        17,
+        18,
+        16,
+        9
+      ],
+      "borderColor": "#ec4899",
+      "backgroundColor": "#ec4899",
+      "tension": 0.3
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "pie",
+  "title": "Global Space Economy Revenue Breakdown by Industry",
+  "desc": "The chart categorizes economic value generated across commercial space activities.",
+  "labels": [
+    "Satellite Navigation (GPS)",
+    "Satellite TV & Comm",
+    "Earth Observation Data",
+    "Launch Services",
+    "Satellite Manufacturing"
+  ],
+  "datasets": [
+    {
+      "data": [
+        42,
+        31,
+        14,
+        7,
+        6
+      ],
+      "backgroundColor": [
+        "#3b82f6",
+        "#8b5cf6",
+        "#10b981",
+        "#ef4444",
+        "#f59e0b"
+      ]
+    }
+  ]
+}

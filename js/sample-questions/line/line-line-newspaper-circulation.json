@@ -1,0 +1,40 @@
+{
+  "type": "line",
+  "title": "Daily Print Newspaper Circulation (2000 - 2020)",
+  "desc": "The line graph tracks total print newspaper copies distributed in millions per day across two major Western markets.",
+  "labels": [
+    "2000",
+    "2005",
+    "2010",
+    "2015",
+    "2020"
+  ],
+  "datasets": [
+    {
+      "label": "United States",
+      "data": [
+        55.8,
+        50.4,
+        43.0,
+        31.2,
+        20.1
+      ],
+      "borderColor": "#ef4444",
+      "backgroundColor": "#ef4444",
+      "tension": 0.3
+    },
+    {
+      "label": "United Kingdom",
+      "data": [
+        18.2,
+        15.6,
+        12.1,
+        7.8,
+        4.2
+      ],
+      "borderColor": "#f59e0b",
+      "backgroundColor": "#f59e0b",
+      "tension": 0.3
+    }
+  ]
+}

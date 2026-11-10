@@ -1,0 +1,57 @@
+{
+  "type": "line",
+  "title": "Successful Orbital Space Launches per Year (2012 - 2022)",
+  "desc": "The chart tracks annual orbital rocket launch counts conducted by major spacefaring entities.",
+  "labels": [
+    "2012",
+    "2014",
+    "2016",
+    "2018",
+    "2020",
+    "2022"
+  ],
+  "datasets": [
+    {
+      "label": "United States",
+      "data": [
+        19,
+        23,
+        22,
+        31,
+        40,
+        76
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    },
+    {
+      "label": "China",
+      "data": [
+        19,
+        16,
+        21,
+        38,
+        35,
+        62
+      ],
+      "borderColor": "#ef4444",
+      "backgroundColor": "#ef4444",
+      "tension": 0.3
+    },
+    {
+      "label": "Russia",
+      "data": [
+        24,
+        32,
+        17,
+        17,
+        15,
+        21
+      ],
+      "borderColor": "#f59e0b",
+      "backgroundColor": "#f59e0b",
+      "tension": 0.3
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Technical Specifications of Modern Commercial Jetliners",
+  "desc": "The table provides engineering data for single-aisle passenger aircraft including passenger seating capacity, maximum flight range (km), and fuel burn rates.",
+  "headers": [
+    "Aircraft Model",
+    "Passenger Seats",
+    "Max Range (km)",
+    "Fuel Burn (L/100km per seat)"
+  ],
+  "rows": [
+    [
+      "Boeing 737 MAX 8",
+      "178",
+      "6570",
+      "2.25"
+    ],
+    [
+      "Airbus A320neo",
+      "180",
+      "6300",
+      "2.18"
+    ],
+    [
+      "Airbus A220-300",
+      "135",
+      "6390",
+      "2.05"
+    ],
+    [
+      "Embraer E195-E2",
+      "132",
+      "4815",
+      "2.15"
+    ]
+  ]
+}

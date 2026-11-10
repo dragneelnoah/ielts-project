@@ -1,0 +1,53 @@
+{
+  "type": "line",
+  "title": "Per Capita Coffee Consumption in Three Nations",
+  "desc": "The graph compares average annual coffee consumption in kilograms per person between 2000 and 2020.",
+  "labels": [
+    "2000",
+    "2005",
+    "2010",
+    "2015",
+    "2020"
+  ],
+  "datasets": [
+    {
+      "label": "Finland",
+      "data": [
+        11.2,
+        11.8,
+        12.1,
+        12.3,
+        12.0
+      ],
+      "borderColor": "#8b5cf6",
+      "backgroundColor": "#8b5cf6",
+      "tension": 0.3
+    },
+    {
+      "label": "Italy",
+      "data": [
+        5.4,
+        5.6,
+        5.8,
+        5.9,
+        5.7
+      ],
+      "borderColor": "#f59e0b",
+      "backgroundColor": "#f59e0b",
+      "tension": 0.3
+    },
+    {
+      "label": "USA",
+      "data": [
+        4.0,
+        4.2,
+        4.4,
+        4.7,
+        4.9
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    }
+  ]
+}

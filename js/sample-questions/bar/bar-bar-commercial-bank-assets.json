@@ -1,0 +1,28 @@
+{
+  "type": "bar",
+  "title": "Total Assets of World's Largest Commercial Banks",
+  "desc": "The chart details total asset valuation in trillion USD held by four banking conglomerates.",
+  "labels": [
+    "Bank 1",
+    "Bank 2",
+    "Bank 3",
+    "Bank 4"
+  ],
+  "datasets": [
+    {
+      "label": "Total Assets ($ Trillions)",
+      "data": [
+        5.7,
+        5.0,
+        4.3,
+        3.7
+      ],
+      "backgroundColor": [
+        "#ef4444",
+        "#ef4444",
+        "#ef4444",
+        "#3b82f6"
+      ]
+    }
+  ]
+}

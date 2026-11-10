@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Space Launch Service Provider Payload Performance",
+  "desc": "The table compares orbital launch vehicle specifications including payload capacity to Low Earth Orbit (LEO) and launch costs.",
+  "headers": [
+    "Launch Vehicle",
+    "Provider Country",
+    "LEO Payload (kg)",
+    "Est. Launch Cost ($M)"
+  ],
+  "rows": [
+    [
+      "Falcon 9",
+      "United States",
+      "22800",
+      "67"
+    ],
+    [
+      "Ariane 6",
+      "Europe",
+      "21600",
+      "115"
+    ],
+    [
+      "Long March 5",
+      "China",
+      "25000",
+      "100"
+    ],
+    [
+      "Vulcan Centaur",
+      "United States",
+      "27200",
+      "110"
+    ]
+  ]
+}

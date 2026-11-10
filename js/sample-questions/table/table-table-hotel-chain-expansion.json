@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Global Hotel Chain Room Inventory and Pipeline",
+  "desc": "The table details current operating hotel rooms and active pipeline rooms under construction for international hotel groups.",
+  "headers": [
+    "Hotel Group",
+    "Operating Hotels",
+    "Open Rooms (K)",
+    "Pipeline Rooms (K)"
+  ],
+  "rows": [
+    [
+      "Marriott International",
+      "8700",
+      "1590",
+      "540"
+    ],
+    [
+      "Hilton Worldwide",
+      "7500",
+      "1180",
+      "460"
+    ],
+    [
+      "IHG Hotels & Resorts",
+      "6200",
+      "925",
+      "285"
+    ],
+    [
+      "Wyndham Hotels",
+      "9100",
+      "842",
+      "226"
+    ]
+  ]
+}

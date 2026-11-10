@@ -1,0 +1,43 @@
+{
+  "type": "table",
+  "title": "Green Coffee Bean Export Prices and Production Volumes",
+  "desc": "The table details total export volume (bags) and average price per pound for Arabica and Robusta coffee beans.",
+  "headers": [
+    "Country",
+    "Coffee Type",
+    "Export Volume (M Bags)",
+    "Avg Price ($/lb)"
+  ],
+  "rows": [
+    [
+      "Brazil",
+      "Arabica / Robusta",
+      "39.4",
+      "1.85"
+    ],
+    [
+      "Vietnam",
+      "Robusta",
+      "28.2",
+      "1.22"
+    ],
+    [
+      "Colombia",
+      "Washed Arabica",
+      "11.5",
+      "2.10"
+    ],
+    [
+      "Ethiopia",
+      "Arabica",
+      "5.8",
+      "2.45"
+    ],
+    [
+      "Indonesia",
+      "Robusta / Arabica",
+      "7.1",
+      "1.35"
+    ]
+  ]
+}

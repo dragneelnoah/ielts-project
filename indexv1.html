@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS Academic Task 1 - Interactive Graph Practice</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col font-sans">
+
+    <!-- Top Navigation (Starts centered with hidden actions on landing page) -->
+    <header id="app-header" class="bg-slate-800 border-b border-slate-700 px-6 py-4 flex items-center justify-center sticky top-0 z-30 shadow-md transition-all">
+        <div class="flex items-center space-x-3">
+            <div class="bg-blue-600 p-2 rounded-lg text-white font-bold text-lg shadow">
+                <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <div>
+                <h1 class="text-xl font-bold tracking-tight text-white">IELTS Task 1 Studio</h1>
+                <p class="text-xs text-slate-400">Interactive Data Visualizer for Teachers & Students</p>
+            </div>
+        </div>
+        <div id="header-actions" class="hidden items-center space-x-3 ml-auto">
+            <button id="toggle-drawer-btn" class="bg-slate-700 hover:bg-slate-600 text-slate-200 px-4 py-2 rounded-lg text-sm font-medium transition flex items-center space-x-2 border border-slate-600">
+                <i class="fa-solid fa-sliders"></i>
+                <span>Data & Editor</span>
+            </button>
+            <button id="exercise-btn" class="bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-lg text-sm font-medium transition flex items-center space-x-2 shadow">
+                <i class="fa-solid fa-book-open"></i>
+                <span>Exercises</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Landing / Selector View -->
+    <div id="landing-view" class="flex-1 max-w-6xl mx-auto px-6 py-12 w-full">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+            <span class="bg-blue-900/50 text-blue-400 border border-blue-700/50 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Academic Module</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-4 mb-3">Choose Graph Type to Practice</h2>
+            <p class="text-slate-400">Select a data representation format commonly found in IELTS Academic Task 1 tests. Explore real IELTS exercises, edit values, or practice with custom JSON data.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Line Graph Card -->
+            <div onclick="app.selectGraphType('line')" class="bg-slate-800 hover:bg-slate-750 border border-slate-700 hover:border-blue-500 rounded-2xl p-6 cursor-pointer transition transform hover:-translate-y-1 shadow-lg group">
+                <div class="bg-blue-500/10 text-blue-400 w-12 h-12 rounded-xl flex items-center justify-center text-xl mb-4 group-hover:bg-blue-600 group-hover:text-white transition">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">Line Graph</h3>
+                <p class="text-sm text-slate-400 mb-4">Practice trends over time, fluctuations, peaks, and troughs across multiple categories.</p>
+                <span class="text-xs text-blue-400 font-semibold flex items-center space-x-1 group-hover:underline">
+                    <span>Launch Exercises</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </span>
+            </div>
+
+            <!-- Bar Chart Card -->
+            <div onclick="app.selectGraphType('bar')" class="bg-slate-800 hover:bg-slate-750 border border-slate-700 hover:border-emerald-500 rounded-2xl p-6 cursor-pointer transition transform hover:-translate-y-1 shadow-lg group">
+                <div class="bg-emerald-500/10 text-emerald-400 w-12 h-12 rounded-xl flex items-center justify-center text-xl mb-4 group-hover:bg-emerald-600 group-hover:text-white transition">
+                    <i class="fa-solid fa-chart-column"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">Bar Chart</h3>
+                <p class="text-sm text-slate-400 mb-4">Compare quantities, rankings, or demographic metrics across discrete categories.</p>
+                <span class="text-xs text-emerald-400 font-semibold flex items-center space-x-1 group-hover:underline">
+                    <span>Launch Exercises</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </span>
+            </div>
+
+            <!-- Pie Chart Card -->
+            <div onclick="app.selectGraphType('pie')" class="bg-slate-800 hover:bg-slate-750 border border-slate-700 hover:border-amber-500 rounded-2xl p-6 cursor-pointer transition transform hover:-translate-y-1 shadow-lg group">
+                <div class="bg-amber-500/10 text-amber-400 w-12 h-12 rounded-xl flex items-center justify-center text-xl mb-4 group-hover:bg-amber-600 group-hover:text-white transition">
+                    <i class="fa-solid fa-chart-pie"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">Pie Chart</h3>
+                <p class="text-sm text-slate-400 mb-4">Analyze proportional breakdowns, percentage shares, and compositional distributions.</p>
+                <span class="text-xs text-amber-400 font-semibold flex items-center space-x-1 group-hover:underline">
+                    <span>Launch Exercises</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </span>
+            </div>
+
+            <!-- Table Card -->
+            <div onclick="app.selectGraphType('table')" class="bg-slate-800 hover:bg-slate-750 border border-slate-700 hover:border-purple-500 rounded-2xl p-6 cursor-pointer transition transform hover:-translate-y-1 shadow-lg group">
+                <div class="bg-purple-500/10 text-purple-400 w-12 h-12 rounded-xl flex items-center justify-center text-xl mb-4 group-hover:bg-purple-600 group-hover:text-white transition">
+                    <i class="fa-solid fa-table"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">Data Table</h3>
+                <p class="text-sm text-slate-400 mb-4">Examine precise numerical data matrices with multiple rows and columns over years/regions.</p>
+                <span class="text-xs text-purple-400 font-semibold flex items-center space-x-1 group-hover:underline">
+                    <span>Launch Exercises</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Workspace View -->
+    <div id="workspace-view" class="flex-1 flex flex-col lg:flex-row hidden relative overflow-hidden">
+
+        <!-- Main Graph Area -->
+        <main class="flex-1 p-6 flex flex-col max-w-5xl mx-auto w-full">
+            <div class="mb-4 flex items-center justify-between">
+                <button onclick="app.returnToHome()" class="text-slate-400 hover:text-white text-sm font-medium flex items-center space-x-2 transition">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <span>Back to Graph Selector</span>
+                </button>
+                <span id="current-type-badge" class="bg-blue-900/60 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold uppercase border border-blue-700">Line Graph</span>
+            </div>
+
+            <!-- IELTS Question Card -->
+            <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 mb-6 shadow-md">
+                <div class="flex items-center space-x-2 text-amber-400 text-xs font-bold uppercase tracking-wider mb-2">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span>IELTS Academic Task 1 Prompt</span>
+                </div>
+                <h2 id="task-prompt-title" class="text-lg sm:text-xl font-bold text-white mb-2">Loading Exercise...</h2>
+                <p id="task-prompt-desc" class="text-slate-300 text-sm leading-relaxed">Please wait while the exercise dataset is fetched.</p>
+            </div>
+
+            <!-- Chart / Table Render Container -->
+            <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 flex-1 flex flex-col justify-center items-center shadow-lg relative min-h-[420px]">
+                <div class="w-full h-full flex items-center justify-center" id="chart-container-wrapper">
+                    <canvas id="ieltsChart"></canvas>
+                </div>
+                <div class="w-full overflow-x-auto hidden" id="table-container-wrapper">
+                    <table class="w-full text-left border-collapse" id="ieltsTable">
+                    </table>
+                </div>
+            </div>
+        </main>
+
+        <!-- Collapsible Editor Drawer -->
+        <aside id="editor-drawer" class="w-full lg:w-96 bg-slate-800 border-l border-slate-700 flex flex-col h-auto lg:h-[calc(100vh-73px)] shadow-2xl z-20 transition-all duration-300">
+            <div class="p-4 border-b border-slate-700 flex items-center justify-between bg-slate-850">
+                <div class="flex items-center space-x-2">
+                    <i class="fa-solid fa-sliders text-blue-400"></i>
+                    <h3 class="font-bold text-white">Data & Prompt Editor</h3>
+                </div>
+                <button onclick="app.toggleDrawer()" class="text-slate-400 hover:text-white lg:hidden">
+                    <i class="fa-solid fa-xmark text-lg"></i>
+                </button>
+            </div>
+
+            <div class="flex border-b border-slate-700 bg-slate-900/50">
+                <button onclick="app.switchTab('form')" id="tab-form" class="flex-1 py-3 text-xs font-bold uppercase tracking-wider text-blue-400 border-b-2 border-blue-500 transition">Click & Tweak</button>
+                <button onclick="app.switchTab('json')" id="tab-json" class="flex-1 py-3 text-xs font-bold uppercase tracking-wider text-slate-400 hover:text-slate-200 transition">Raw JSON</button>
+            </div>
+
+            <div class="flex-1 overflow-y-auto p-4 space-y-6">
+                <div id="panel-form" class="space-y-4">
+                    <div>
+                        <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Prompt Title</label>
+                        <input type="text" id="input-title" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Prompt Description</label>
+                        <textarea id="input-desc" rows="3" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-blue-500"></textarea>
+                    </div>
+
+                    <hr class="border-slate-700">
+
+                    <div>
+                        <div class="flex items-center justify-between mb-2">
+                            <label class="text-xs font-semibold uppercase tracking-wider text-slate-400">Data Series & Values</label>
+                        </div>
+                        <div id="data-inputs-container" class="space-y-3">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="panel-json" class="space-y-4 hidden">
+                    <p class="text-xs text-slate-400">Edit the underlying JSON data structure directly. Click "Apply JSON" to update the graph instantly.</p>
+                    <textarea id="input-json-raw" rows="18" class="w-full bg-slate-950 font-mono text-xs text-emerald-400 p-3 rounded-lg border border-slate-700 focus:outline-none focus:border-blue-500"></textarea>
+                    <button onclick="app.applyJson()" class="w-full bg-blue-600 hover:bg-blue-500 text-white py-2.5 rounded-lg text-sm font-semibold transition shadow">Apply JSON Changes</button>
+                </div>
+            </div>
+
+            <div class="p-4 border-t border-slate-700 bg-slate-850">
+                <button onclick="app.updateChartFromForm()" class="w-full bg-blue-600 hover:bg-blue-500 text-white py-3 rounded-xl font-semibold text-sm transition shadow-lg flex items-center justify-center space-x-2">
+                    <i class="fa-solid fa-rotate"></i>
+                    <span>Update Graph</span>
+                </button>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="bg-slate-850 border-t border-slate-800 text-center py-4 text-xs text-slate-500">
+        IELTS Academic Task 1 Practice Studio &bull; Built for English Teachers & Students
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

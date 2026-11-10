@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Employment Rate 6 Months After Graduation by Discipline",
+  "desc": "The bar chart compares post-graduation employment success rates for university degree subjects.",
+  "labels": [
+    "Health Professions",
+    "Engineering",
+    "Computer Science",
+    "Business",
+    "Arts & Humanities"
+  ],
+  "datasets": [
+    {
+      "label": "Employment Rate (%)",
+      "data": [
+        94.5,
+        91.2,
+        89.8,
+        84.1,
+        68.3
+      ],
+      "backgroundColor": [
+        "#10b981",
+        "#10b981",
+        "#3b82f6",
+        "#f59e0b",
+        "#ef4444"
+      ]
+    }
+  ]
+}

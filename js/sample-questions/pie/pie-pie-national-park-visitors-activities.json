@@ -1,0 +1,33 @@
+{
+  "type": "pie",
+  "title": "Primary Activity Choice for National Park Visitors",
+  "desc": "The pie chart categorizes outdoor recreation preferences reported by national park tourists.",
+  "labels": [
+    "Day Hiking",
+    "Scenic Driving & Overlooks",
+    "Camping",
+    "Wildlife Viewing",
+    "Picnicking",
+    "Water Sports"
+  ],
+  "datasets": [
+    {
+      "data": [
+        41,
+        24,
+        15,
+        11,
+        5,
+        4
+      ],
+      "backgroundColor": [
+        "#10b981",
+        "#f59e0b",
+        "#3b82f6",
+        "#8b5cf6",
+        "#ec4899",
+        "#06b6d4"
+      ]
+    }
+  ]
+}

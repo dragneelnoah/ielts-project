@@ -1,0 +1,27 @@
+{
+  "type": "pie",
+  "title": "Residential Natural Gas Consumption Breakdown",
+  "desc": "The pie chart details household natural gas utilization across domestic heating and appliance needs.",
+  "labels": [
+    "Space Heating",
+    "Water Heating",
+    "Cooking",
+    "Clothes Drying"
+  ],
+  "datasets": [
+    {
+      "data": [
+        63,
+        27,
+        7,
+        3
+      ],
+      "backgroundColor": [
+        "#ef4444",
+        "#f59e0b",
+        "#3b82f6",
+        "#10b981"
+      ]
+    }
+  ]
+}

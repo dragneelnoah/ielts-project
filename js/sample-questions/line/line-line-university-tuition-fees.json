@@ -1,0 +1,40 @@
+{
+  "type": "line",
+  "title": "Average Annual University Tuition Fees in USD (2005 - 2021)",
+  "desc": "The graph details changes in undergraduate tuition fees at public four-year higher education institutions.",
+  "labels": [
+    "2005",
+    "2009",
+    "2013",
+    "2017",
+    "2021"
+  ],
+  "datasets": [
+    {
+      "label": "In-State Tuition",
+      "data": [
+        5490,
+        7050,
+        8890,
+        9970,
+        10560
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    },
+    {
+      "label": "Out-of-State Tuition",
+      "data": [
+        14410,
+        18640,
+        22200,
+        25620,
+        27020
+      ],
+      "borderColor": "#8b5cf6",
+      "backgroundColor": "#8b5cf6",
+      "tension": 0.3
+    }
+  ]
+}

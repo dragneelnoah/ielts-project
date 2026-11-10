@@ -1,0 +1,71 @@
+{
+  "type": "line",
+  "title": "Global Internet Users by Region (2010 - 2025)",
+  "desc": "The line graph illustrates the total number of active internet users in millions across four major world regions over a 15-year period.",
+  "labels": [
+    "2010",
+    "2013",
+    "2016",
+    "2019",
+    "2022",
+    "2025"
+  ],
+  "datasets": [
+    {
+      "label": "Asia-Pacific",
+      "data": [
+        800,
+        1200,
+        1700,
+        2100,
+        2600,
+        2900
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    },
+    {
+      "label": "Europe",
+      "data": [
+        400,
+        450,
+        500,
+        540,
+        580,
+        610
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    },
+    {
+      "label": "Americas",
+      "data": [
+        450,
+        520,
+        600,
+        670,
+        740,
+        800
+      ],
+      "borderColor": "#f59e0b",
+      "backgroundColor": "#f59e0b",
+      "tension": 0.3
+    },
+    {
+      "label": "Africa",
+      "data": [
+        100,
+        160,
+        250,
+        380,
+        530,
+        680
+      ],
+      "borderColor": "#ec4899",
+      "backgroundColor": "#ec4899",
+      "tension": 0.3
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "pie",
+  "title": "Operating Cost Structure of a Commercial Airline",
+  "desc": "The pie chart breaks down major annual operational expense categories incurred by a passenger carrier.",
+  "labels": [
+    "Jet Fuel",
+    "Flight & Ground Crew Salaries",
+    "Aircraft Maintenance",
+    "Airport Landing Fees",
+    "Sales & Marketing",
+    "Other Admin"
+  ],
+  "datasets": [
+    {
+      "data": [
+        31,
+        24,
+        16,
+        12,
+        9,
+        8
+      ],
+      "backgroundColor": [
+        "#ef4444",
+        "#3b82f6",
+        "#f59e0b",
+        "#8b5cf6",
+        "#10b981",
+        "#64748b"
+      ]
+    }
+  ]
+}

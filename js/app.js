@@ -9,7 +9,37 @@ const exerciseManifest = {
         'line-renewable-power-generation.json',
         'line-unemployment-rate-comparison.json',
         'line-public-library-visits.json',
-        'line-freshwater-consumption.json'
+        'line-freshwater-consumption.json',
+        'line-global-internet-users.json',
+        'line-air-quality-index.json',
+        'line-cinema-attendance.json',
+        'line-electric-scooter-rentals.json',
+        'line-coffee-consumption-trends.json',
+        'line-fast-fashion-sales.json',
+        'line-solar-panel-costs.json',
+        'line-meat-consumption-per-capita.json',
+        'line-public-bus-ridership.json',
+        'line-female-parliamentarians.json',
+        'line-organic-food-market.json',
+        'line-hybrid-work-adoption.json',
+        'line-waste-generation-per-capita.json',
+        'line-passenger-train-speed.json',
+        'line-crude-oil-prices.json',
+        'line-newspaper-circulation.json',
+        'line-university-tuition-fees.json',
+        'line-life-expectancy-trends.json',
+        'line-streaming-music-revenue.json',
+        'line-ev-battery-prices.json',
+        'line-robotic-automation-units.json',
+        'line-desalinated-water-production.json',
+        'line-hotel-room-rates.json',
+        'line-book-sales-by-format.json',
+        'line-space-launch-attempts.json',
+        'line-commercial-air-cargo.json',
+        'line-smartphone-camera-specs.json',
+        'line-forest-cover-change.json',
+        'line-cruise-ship-passengers.json',
+        'line-cycling-infrastructure.json'
     ],
     bar: [
         'bar-internet-penetration-rates.json',
@@ -21,7 +51,37 @@ const exerciseManifest = {
         'bar-air-travel-passenger-volume.json',
         'bar-fast-food-brand-revenue.json',
         'bar-working-hours-by-country.json',
-        'bar-higher-education-graduates.json'
+        'bar-higher-education-graduates.json',
+        'bar-household-recycling-rates.json',
+        'bar-movie-box-office-revenue.json',
+        'bar-nuclear-power-reactors.json',
+        'bar-average-commute-times.json',
+        'bar-top-export-commodities.json',
+        'bar-museum-visitors-annual.json',
+        'bar-smartphone-vendor-shipments.json',
+        'bar-water-consumption-by-crop.json',
+        'bar-patents-granted-tech.json',
+        'bar-public-parks-per-capita.json',
+        'bar-r-and-d-spending-by-country.json',
+        'bar-solar-capacity-installed.json',
+        'bar-language-speakers-worldwide.json',
+        'bar-hotel-ratings-satisfaction.json',
+        'bar-high-speed-rail-network.json',
+        'bar-coffee-shop-branches.json',
+        'bar-commercial-bank-assets.json',
+        'bar-electric-bus-fleet.json',
+        'bar-port-container-throughput.json',
+        'bar-meat-production-by-country.json',
+        'bar-wearable-device-sales.json',
+        'bar-waste-incineration-percentage.json',
+        'bar-graduate-employment-rate.json',
+        'bar-luxury-brand-valuation.json',
+        'bar-desalination-plants-count.json',
+        'bar-car-rental-fleet-size.json',
+        'bar-subway-station-count.json',
+        'bar-film-production-quantity.json',
+        'bar-space-satellite-constellation.json',
+        'bar-wind-turbine-manufacturers.json'
     ],
     pie: [
         'pie-eu-energy-sources-breakdown.json',
@@ -33,7 +93,37 @@ const exerciseManifest = {
         'pie-global-e-waste-generation.json',
         'pie-municipal-waste-composition.json',
         'pie-tourist-spending-categories.json',
-        'pie-renewable-energy-investment.json'
+        'pie-renewable-energy-investment.json',
+        'pie-global-electricity-generation.json',
+        'pie-smartphone-purchase-factors.json',
+        'pie-household-food-waste-sources.json',
+        'pie-global-freight-transport-modes.json',
+        'pie-consumer-clothing-disposal.json',
+        'pie-e-commerce-payment-methods.json',
+        'pie-commercial-building-energy.json',
+        'pie-hotel-revenue-streams.json',
+        'pie-ocean-plastic-sources.json',
+        'pie-student-study-time.json',
+        'pie-global-coffee-trade-share.json',
+        'pie-app-store-revenue.json',
+        'pie-packaging-material-types.json',
+        'pie-airline-operating-expenses.json',
+        'pie-space-debris-by-type.json',
+        'pie-household-gas-usage.json',
+        'pie-corporate-cloud-spending.json',
+        'pie-urban-noise-pollution-sources.json',
+        'pie-pharmaceutical-r-and-d.json',
+        'pie-car-ownership-duration.json',
+        'pie-video-game-genre-sales.json',
+        'pie-public-library-loan-types.json',
+        'pie-electric-car-battery-chemistry.json',
+        'pie-national-park-visitors-activities.json',
+        'pie-fast-food-order-channels.json',
+        'pie-pet-ownership-by-species.json',
+        'pie-solar-cell-technology.json',
+        'pie-university-alumni-donations.json',
+        'pie-commercial-space-revenue.json',
+        'pie-cruise-ship-spending-onboard.json'
     ],
     table: [
         'table-monthly-city-weather.json',
@@ -45,7 +135,37 @@ const exerciseManifest = {
         'table-vehicle-fuel-efficiency.json',
         'table-commercial-shipping-fleet.json',
         'table-broadband-internet-costs.json',
-        'table-public-transit-ridership.json'
+        'table-public-transit-ridership.json',
+        'table-global-port-efficiency.json',
+        'table-commercial-aircraft-specs.json',
+        'table-hospital-performance-metrics.json',
+        'table-urban-housing-affordability.json',
+        'table-renewable-energy-tariffs.json',
+        'table-university-r-and-d-funding.json',
+        'table-digital-news-subscriptions.json',
+        'table-coffee-export-prices.json',
+        'table-public-library-resources.json',
+        'table-commercial-space-payloads.json',
+        'table-hotel-chain-expansion.json',
+        'table-electric-scooter-fleet-data.json',
+        'table-freshwater-aquaculture.json',
+        'table-urban-fire-department-response.json',
+        'table-smartphone-repairability.json',
+        'table-passenger-ferry-routes.json',
+        'table-commercial-wind-turbines.json',
+        'table-national-park-visitation.json',
+        'table-cloud-storage-pricing.json',
+        'table-fast-fashion-supply-chain.json',
+        'table-desalination-energy-consumption.json',
+        'table-urban-rail-car-fleet.json',
+        'table-agricultural-tractor-sales.json',
+        'table-commercial-drone-specs.json',
+        'table-organic-farm-certification.json',
+        'table-container-ship-evolution.json',
+        'table-electric-car-charging-networks.json',
+        'table-textile-fiber-production.json',
+        'table-commercial-satellite-fleet.json',
+        'table-underwater-telecom-cables.json'
     ]
 };
 
@@ -61,12 +181,46 @@ class IELTSApp {
     initListeners() {
         const toggleBtn = document.getElementById('toggle-drawer-btn');
         const exerciseBtn = document.getElementById('exercise-btn');
+        const mobileToggleBtn = document.getElementById('mobile-toggle-drawer-btn');
+        const mobileExerciseBtn = document.getElementById('mobile-exercise-btn');
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileDropdown = document.getElementById('mobile-dropdown');
 
         if (toggleBtn) {
             toggleBtn.addEventListener('click', () => this.toggleDrawer());
         }
         if (exerciseBtn) {
             exerciseBtn.addEventListener('click', () => this.loadRandomExercise());
+        }
+        if (mobileToggleBtn) {
+            mobileToggleBtn.addEventListener('click', () => {
+                this.toggleDrawer();
+                if (mobileDropdown) {
+                    mobileDropdown.classList.add('hidden');
+                    mobileDropdown.classList.remove('flex');
+                }
+            });
+        }
+        if (mobileExerciseBtn) {
+            mobileExerciseBtn.addEventListener('click', () => {
+                this.loadRandomExercise();
+                if (mobileDropdown) {
+                    mobileDropdown.classList.add('hidden');
+                    mobileDropdown.classList.remove('flex');
+                }
+            });
+        }
+
+        if (mobileMenuBtn && mobileDropdown) {
+            mobileMenuBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                mobileDropdown.classList.toggle('hidden');
+                mobileDropdown.classList.toggle('flex');
+            });
+            document.addEventListener('click', () => {
+                mobileDropdown.classList.add('hidden');
+                mobileDropdown.classList.remove('flex');
+            });
         }
     }
 
@@ -75,9 +229,9 @@ class IELTSApp {
         document.getElementById('landing-view').classList.add('hidden');
         document.getElementById('workspace-view').classList.remove('hidden');
 
-        // Switch header layout from centered to space-between and show action buttons
+        // Switch header layout from centered to space-between and show action container
         const header = document.getElementById('app-header');
-        header.className = "bg-slate-800 border-b border-slate-700 px-6 py-4 flex items-center justify-between sticky top-0 z-30 shadow-md transition-all";
+        header.className = "bg-slate-800 border-b border-slate-700 px-6 py-3 flex items-center justify-between sticky top-0 z-30 shadow-md transition-all";
         const headerActions = document.getElementById('header-actions');
         headerActions.classList.remove('hidden');
         headerActions.classList.add('flex');
@@ -111,9 +265,9 @@ class IELTSApp {
         document.getElementById('workspace-view').classList.add('hidden');
         document.getElementById('landing-view').classList.remove('hidden');
 
-        // Switch header layout back to centered and hide action buttons
+        // Switch header layout back to centered and hide action container
         const header = document.getElementById('app-header');
-        header.className = "bg-slate-800 border-b border-slate-700 px-6 py-4 flex items-center justify-center sticky top-0 z-30 shadow-md transition-all";
+        header.className = "bg-slate-800 border-b border-slate-700 px-6 py-3 flex items-center justify-center sticky top-0 z-30 shadow-md transition-all";
         const headerActions = document.getElementById('header-actions');
         headerActions.classList.add('hidden');
         headerActions.classList.remove('flex');
@@ -137,13 +291,13 @@ class IELTSApp {
         const panelJson = document.getElementById('panel-json');
 
         if (tab === 'form') {
-            tabForm.className = "flex-1 py-3 text-xs font-bold uppercase tracking-wider text-blue-400 border-b-2 border-blue-500 transition";
-            tabJson.className = "flex-1 py-3 text-xs font-bold uppercase tracking-wider text-slate-400 hover:text-slate-200 transition";
+            tabForm.className = "flex-1 py-2.5 text-xs font-bold uppercase tracking-wider text-blue-400 border-b-2 border-blue-500 transition";
+            tabJson.className = "flex-1 py-2.5 text-xs font-bold uppercase tracking-wider text-slate-400 hover:text-slate-200 transition";
             panelForm.classList.remove('hidden');
             panelJson.classList.add('hidden');
         } else {
-            tabJson.className = "flex-1 py-3 text-xs font-bold uppercase tracking-wider text-blue-400 border-b-2 border-blue-500 transition";
-            tabForm.className = "flex-1 py-3 text-xs font-bold uppercase tracking-wider text-slate-400 hover:text-slate-200 transition";
+            tabJson.className = "flex-1 py-2.5 text-xs font-bold uppercase tracking-wider text-blue-400 border-b-2 border-blue-500 transition";
+            tabForm.className = "flex-1 py-2.5 text-xs font-bold uppercase tracking-wider text-slate-400 hover:text-slate-200 transition";
             panelJson.classList.remove('hidden');
             panelForm.classList.add('hidden');
 
@@ -195,7 +349,7 @@ class IELTSApp {
                 maintainAspectRatio: false,
                 plugins: {
                     legend: {
-                        labels: { color: '#cbd5e1', font: { family: 'system-ui', size: 12 } }
+                        labels: { color: '#cbd5e1', font: { family: 'system-ui', size: 11 } }
                     }
                 },
                 scales: chartConfigType !== 'pie' ? {
@@ -210,14 +364,14 @@ class IELTSApp {
         const table = document.getElementById('ieltsTable');
         let html = `<thead><tr class="border-b border-slate-700 bg-slate-850">`;
         this.currentData.headers.forEach(h => {
-            html += `<th class="p-3 text-xs font-bold uppercase tracking-wider text-slate-300">${h}</th>`;
+            html += `<th class="p-2.5 text-xs font-bold uppercase tracking-wider text-slate-300">${h}</th>`;
         });
         html += `</tr></thead><tbody>`;
 
         this.currentData.rows.forEach((row) => {
             html += `<tr class="border-b border-slate-750 hover:bg-slate-750 transition">`;
             row.forEach((cell) => {
-                html += `<td class="p-3 text-sm text-slate-300">${cell}</td>`;
+                html += `<td class="p-2.5 text-sm text-slate-300">${cell}</td>`;
             });
             html += `</tr>`;
         });
@@ -241,7 +395,7 @@ class IELTSApp {
         html += `<input type="text" id="form-labels" value="${this.currentData.labels.join(', ')}" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-1.5 text-sm text-white"></div>`;
 
         this.currentData.datasets.forEach((ds, dIdx) => {
-            html += `<div class="bg-slate-900/60 p-3 rounded-xl border border-slate-700 space-y-2">`;
+            html += `<div class="bg-slate-900/60 p-2.5 rounded-xl border border-slate-700 space-y-1.5">`;
             html += `<div class="flex justify-between items-center"><span class="text-xs font-bold text-blue-400">Series: ${ds.label || 'Data Points'}</span></div>`;
             html += `<input type="text" data-dataset-index="${dIdx}" class="dataset-data-input w-full bg-slate-950 border border-slate-700 rounded px-2 py-1 text-xs text-emerald-400" value="${ds.data.join(', ')}">`;
             html += `</div>`;

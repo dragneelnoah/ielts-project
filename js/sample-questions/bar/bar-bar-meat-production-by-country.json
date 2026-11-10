@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Total Pork Production by Leading Nation (Thousand Metric Tons)",
+  "desc": "The bar chart compares annual processed pork tonnage output across five primary agricultural producers.",
+  "labels": [
+    "China",
+    "European Union",
+    "United States",
+    "Brazil",
+    "Russia"
+  ],
+  "datasets": [
+    {
+      "label": "Production (1,000 MT)",
+      "data": [
+        55000,
+        21150,
+        12390,
+        4550,
+        3750
+      ],
+      "backgroundColor": [
+        "#ef4444",
+        "#3b82f6",
+        "#3b82f6",
+        "#10b981",
+        "#f59e0b"
+      ]
+    }
+  ]
+}

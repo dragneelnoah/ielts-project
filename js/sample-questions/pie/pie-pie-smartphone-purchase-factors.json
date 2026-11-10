@@ -1,0 +1,33 @@
+{
+  "type": "pie",
+  "title": "Primary Deciding Factor When Purchasing a New Smartphone",
+  "desc": "The pie chart illustrates consumer survey responses regarding key criteria for choosing a mobile handset.",
+  "labels": [
+    "Battery Life",
+    "Camera Quality",
+    "Price / Value",
+    "Brand Loyalty",
+    "Screen Size",
+    "Processor Speed"
+  ],
+  "datasets": [
+    {
+      "data": [
+        32,
+        26,
+        21,
+        11,
+        6,
+        4
+      ],
+      "backgroundColor": [
+        "#10b981",
+        "#3b82f6",
+        "#f59e0b",
+        "#ec4899",
+        "#8b5cf6",
+        "#06b6d4"
+      ]
+    }
+  ]
+}

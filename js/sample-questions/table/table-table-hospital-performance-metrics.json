@@ -1,0 +1,43 @@
+{
+  "type": "table",
+  "title": "Regional Hospital Performance Indicators (2023)",
+  "desc": "The table details emergency department wait times, bed occupancy rates, and patient satisfaction scores across five regional medical centers.",
+  "headers": [
+    "Hospital Facility",
+    "ER Wait Time (Mins)",
+    "Bed Occupancy (%)",
+    "Patient Satisfaction (/100)"
+  ],
+  "rows": [
+    [
+      "Central General Hospital",
+      "42",
+      "94.2",
+      "81"
+    ],
+    [
+      "St. Jude Medical Center",
+      "28",
+      "86.5",
+      "89"
+    ],
+    [
+      "Valley Memorial Hospital",
+      "65",
+      "98.1",
+      "72"
+    ],
+    [
+      "University Health Center",
+      "35",
+      "91.0",
+      "85"
+    ],
+    [
+      "Northside Community Clinic",
+      "19",
+      "74.8",
+      "93"
+    ]
+  ]
+}

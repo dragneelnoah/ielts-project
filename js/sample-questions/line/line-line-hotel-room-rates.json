@@ -1,0 +1,57 @@
+{
+  "type": "line",
+  "title": "Seasonal Hotel Room Rates in Coastal Resort",
+  "desc": "The line chart plots average nightly room costs in Euros across standard, deluxe, and suite accommodations throughout the calendar year.",
+  "labels": [
+    "Jan",
+    "Apr",
+    "Jul",
+    "Aug",
+    "Oct",
+    "Dec"
+  ],
+  "datasets": [
+    {
+      "label": "Suite",
+      "data": [
+        250,
+        320,
+        580,
+        650,
+        340,
+        290
+      ],
+      "borderColor": "#ec4899",
+      "backgroundColor": "#ec4899",
+      "tension": 0.3
+    },
+    {
+      "label": "Deluxe Room",
+      "data": [
+        140,
+        180,
+        320,
+        380,
+        190,
+        160
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    },
+    {
+      "label": "Standard Room",
+      "data": [
+        85,
+        110,
+        210,
+        240,
+        120,
+        95
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    }
+  ]
+}

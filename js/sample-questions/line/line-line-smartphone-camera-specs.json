@@ -1,0 +1,40 @@
+{
+  "type": "line",
+  "title": "Average Megapixel Count of Main Rear Smartphone Cameras",
+  "desc": "The graph details the average primary camera sensor resolution in megapixels for budget vs flagship smartphones.",
+  "labels": [
+    "2014",
+    "2016",
+    "2018",
+    "2020",
+    "2022"
+  ],
+  "datasets": [
+    {
+      "label": "Flagship Models",
+      "data": [
+        13.2,
+        12.1,
+        14.5,
+        48.0,
+        50.3
+      ],
+      "borderColor": "#8b5cf6",
+      "backgroundColor": "#8b5cf6",
+      "tension": 0.3
+    },
+    {
+      "label": "Budget Models",
+      "data": [
+        8.0,
+        10.5,
+        13.0,
+        24.0,
+        48.0
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    }
+  ]
+}

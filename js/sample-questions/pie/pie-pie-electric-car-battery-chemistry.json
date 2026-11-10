@@ -1,0 +1,27 @@
+{
+  "type": "pie",
+  "title": "Lithium-ion EV Battery Chemistry Market Share",
+  "desc": "The chart displays cathode chemistry shares powering new electric passenger vehicles.",
+  "labels": [
+    "NMC (Nickel Manganese Cobalt)",
+    "LFP (Lithium Iron Phosphate)",
+    "NCA (Nickel Cobalt Aluminum)",
+    "Others"
+  ],
+  "datasets": [
+    {
+      "data": [
+        51,
+        41,
+        6,
+        2
+      ],
+      "backgroundColor": [
+        "#3b82f6",
+        "#10b981",
+        "#f59e0b",
+        "#64748b"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Enterprise Inspection Drone Flight Specifications",
+  "desc": "The table details operational payload limits, maximum flight endurance (minutes), and transmission range for professional drones.",
+  "headers": [
+    "Drone Model",
+    "Flight Time (Mins)",
+    "Max Payload (kg)",
+    "Transmission Range (km)"
+  ],
+  "rows": [
+    [
+      "Model Alpha",
+      "55",
+      "2.7",
+      "15"
+    ],
+    [
+      "Model Beta",
+      "42",
+      "6.0",
+      "10"
+    ],
+    [
+      "Model Gamma",
+      "90",
+      "0.8",
+      "30"
+    ],
+    [
+      "Model Delta",
+      "38",
+      "1.2",
+      "8"
+    ]
+  ]
+}

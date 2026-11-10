@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Municipal Fire and Rescue Response Time Performance",
+  "desc": "The table details annual emergency call volumes, average turnout times, and response time compliance percentages.",
+  "headers": [
+    "Fire District",
+    "Annual Calls",
+    "Avg Response Time (Mins)",
+    "Benchmark Target Compliance (%)"
+  ],
+  "rows": [
+    [
+      "District 1 (Downtown)",
+      "14200",
+      "4.8",
+      "94.2"
+    ],
+    [
+      "District 2 (Industrial)",
+      "8900",
+      "5.5",
+      "89.5"
+    ],
+    [
+      "District 3 (Suburban)",
+      "6400",
+      "6.8",
+      "82.1"
+    ],
+    [
+      "District 4 (Rural)",
+      "2100",
+      "9.4",
+      "68.4"
+    ]
+  ]
+}

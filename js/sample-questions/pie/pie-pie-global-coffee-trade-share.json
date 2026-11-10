@@ -1,0 +1,30 @@
+{
+  "type": "pie",
+  "title": "Global Green Coffee Bean Export Share by Region",
+  "desc": "The chart details regional market share contributions to worldwide raw coffee bean exports.",
+  "labels": [
+    "South America",
+    "Southeast Asia",
+    "Sub-Saharan Africa",
+    "Central America",
+    "Others"
+  ],
+  "datasets": [
+    {
+      "data": [
+        46,
+        28,
+        13,
+        11,
+        2
+      ],
+      "backgroundColor": [
+        "#f59e0b",
+        "#10b981",
+        "#ef4444",
+        "#8b5cf6",
+        "#64748b"
+      ]
+    }
+  ]
+}

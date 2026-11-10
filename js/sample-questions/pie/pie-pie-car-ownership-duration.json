@@ -1,0 +1,30 @@
+{
+  "type": "pie",
+  "title": "Average Length of Time Car Owners Keep Vehicles Before Replacement",
+  "desc": "The pie chart summarizes survey responses regarding vehicle retention duration prior to trade-in.",
+  "labels": [
+    "3-5 Years",
+    "6-8 Years",
+    "9-11 Years",
+    "12+ Years",
+    "Less than 3 Years"
+  ],
+  "datasets": [
+    {
+      "data": [
+        38,
+        29,
+        18,
+        10,
+        5
+      ],
+      "backgroundColor": [
+        "#3b82f6",
+        "#10b981",
+        "#f59e0b",
+        "#8b5cf6",
+        "#ef4444"
+      ]
+    }
+  ]
+}

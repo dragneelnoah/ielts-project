@@ -1,0 +1,57 @@
+{
+  "type": "line",
+  "title": "Average Air Quality Index (AQI) in Selected Cities",
+  "desc": "The graph tracks changes in annual average PM2.5 air pollution levels across three megacities between 2012 and 2022.",
+  "labels": [
+    "2012",
+    "2014",
+    "2016",
+    "2018",
+    "2020",
+    "2022"
+  ],
+  "datasets": [
+    {
+      "label": "City A",
+      "data": [
+        140,
+        135,
+        120,
+        95,
+        78,
+        62
+      ],
+      "borderColor": "#ef4444",
+      "backgroundColor": "#ef4444",
+      "tension": 0.3
+    },
+    {
+      "label": "City B",
+      "data": [
+        85,
+        82,
+        88,
+        90,
+        84,
+        79
+      ],
+      "borderColor": "#f59e0b",
+      "backgroundColor": "#f59e0b",
+      "tension": 0.3
+    },
+    {
+      "label": "City C",
+      "data": [
+        42,
+        39,
+        35,
+        31,
+        28,
+        25
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    }
+  ]
+}

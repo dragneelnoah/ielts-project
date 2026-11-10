@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Smartwatch Unit Shipments by Brand (Millions)",
+  "desc": "The bar chart tracks annual global smartwatch shipments across leading consumer electronics brands.",
+  "labels": [
+    "Apple",
+    "Samsung",
+    "Huawei",
+    "Noise",
+    "Garmin"
+  ],
+  "datasets": [
+    {
+      "label": "Shipments (Millions)",
+      "data": [
+        38.5,
+        15.2,
+        11.4,
+        10.1,
+        8.7
+      ],
+      "backgroundColor": [
+        "#64748b",
+        "#3b82f6",
+        "#ef4444",
+        "#f59e0b",
+        "#06b6d4"
+      ]
+    }
+  ]
+}

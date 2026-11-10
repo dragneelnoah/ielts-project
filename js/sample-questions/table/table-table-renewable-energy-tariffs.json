@@ -1,0 +1,43 @@
+{
+  "type": "table",
+  "title": "Levelized Cost of Electricity (LCOE) by Generation Tech",
+  "desc": "The table compares global average generation costs in USD per megawatt-hour ($/MWh) alongside capacity factors.",
+  "headers": [
+    "Technology",
+    "LCOE 2010 ($/MWh)",
+    "LCOE 2023 ($/MWh)",
+    "Avg Capacity Factor (%)"
+  ],
+  "rows": [
+    [
+      "Utility Solar PV",
+      "359",
+      "44",
+      "22.5"
+    ],
+    [
+      "Onshore Wind",
+      "89",
+      "50",
+      "38.0"
+    ],
+    [
+      "Offshore Wind",
+      "162",
+      "75",
+      "44.5"
+    ],
+    [
+      "Combined Cycle Gas",
+      "65",
+      "68",
+      "56.0"
+    ],
+    [
+      "Coal-Fired Power",
+      "72",
+      "82",
+      "59.0"
+    ]
+  ]
+}

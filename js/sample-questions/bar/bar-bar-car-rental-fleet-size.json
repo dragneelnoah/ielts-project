@@ -1,0 +1,28 @@
+{
+  "type": "bar",
+  "title": "Total Vehicles in Rental Operator Fleets (Thousands)",
+  "desc": "The bar chart compares active car rental fleet sizes across major international hire agencies.",
+  "labels": [
+    "Company X",
+    "Company Y",
+    "Company Z",
+    "Company W"
+  ],
+  "datasets": [
+    {
+      "label": "Fleet Size (Thousands)",
+      "data": [
+        520,
+        480,
+        390,
+        210
+      ],
+      "backgroundColor": [
+        "#3b82f6",
+        "#10b981",
+        "#f59e0b",
+        "#8b5cf6"
+      ]
+    }
+  ]
+}

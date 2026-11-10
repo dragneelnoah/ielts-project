@@ -1,0 +1,43 @@
+{
+  "type": "table",
+  "title": "Agricultural Machinery Sales and Average Power Output",
+  "desc": "The table details annual tractor sales volume and mean engine horsepower (HP) across five regional farm markets.",
+  "headers": [
+    "Region Market",
+    "Annual Units Sold",
+    "Mean Engine Power (HP)",
+    "Avg Sale Price ($)"
+  ],
+  "rows": [
+    [
+      "North America",
+      "275000",
+      "165",
+      "145000"
+    ],
+    [
+      "Europe",
+      "180000",
+      "135",
+      "115000"
+    ],
+    [
+      "India",
+      "900000",
+      "45",
+      "12000"
+    ],
+    [
+      "China",
+      "420000",
+      "75",
+      "28000"
+    ],
+    [
+      "Latin America",
+      "95000",
+      "110",
+      "85000"
+    ]
+  ]
+}

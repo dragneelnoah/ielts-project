@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Enterprise Cloud Object Storage Pricing Comparison",
+  "desc": "The table compares monthly storage fees per Terabyte (TB), data egress charges, and API call costs across cloud providers.",
+  "headers": [
+    "Cloud Provider",
+    "Storage Cost ($/TB/Mo)",
+    "Egress Cost ($/TB)",
+    "API Read Cost ($/10k)"
+  ],
+  "rows": [
+    [
+      "AWS S3 Standard",
+      "23.00",
+      "90.00",
+      "0.004"
+    ],
+    [
+      "Google Cloud Storage",
+      "20.00",
+      "120.00",
+      "0.004"
+    ],
+    [
+      "Azure Blob Storage",
+      "18.00",
+      "87.00",
+      "0.005"
+    ],
+    [
+      "Backblaze B2",
+      "6.00",
+      "0.00",
+      "0.004"
+    ]
+  ]
+}

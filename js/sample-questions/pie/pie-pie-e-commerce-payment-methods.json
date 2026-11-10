@@ -1,0 +1,33 @@
+{
+  "type": "pie",
+  "title": "Global E-Commerce Payment Method Share",
+  "desc": "The pie chart breaks down transaction volume shares for online retail purchases.",
+  "labels": [
+    "Digital Wallets",
+    "Credit Cards",
+    "Debit Cards",
+    "Bank Transfers",
+    "Buy Now Pay Later",
+    "Cash on Delivery"
+  ],
+  "datasets": [
+    {
+      "data": [
+        49,
+        20,
+        12,
+        9,
+        6,
+        4
+      ],
+      "backgroundColor": [
+        "#3b82f6",
+        "#8b5cf6",
+        "#10b981",
+        "#f59e0b",
+        "#ec4899",
+        "#64748b"
+      ]
+    }
+  ]
+}

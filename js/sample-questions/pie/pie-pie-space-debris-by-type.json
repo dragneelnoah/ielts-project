@@ -1,0 +1,30 @@
+{
+  "type": "pie",
+  "title": "Tracked Artificial Objects in Earth Orbit by Classification",
+  "desc": "The chart categorizes cataloged space objects currently monitored by space surveillance networks.",
+  "labels": [
+    "Fragment Debris",
+    "Defunct Satellites",
+    "Rocket Bodies",
+    "Operational Satellites",
+    "Mission-Related Artifacts"
+  ],
+  "datasets": [
+    {
+      "data": [
+        62,
+        16,
+        11,
+        8,
+        3
+      ],
+      "backgroundColor": [
+        "#ef4444",
+        "#64748b",
+        "#f59e0b",
+        "#3b82f6",
+        "#ec4899"
+      ]
+    }
+  ]
+}

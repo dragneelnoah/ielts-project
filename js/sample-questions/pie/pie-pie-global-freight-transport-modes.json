@@ -1,0 +1,30 @@
+{
+  "type": "pie",
+  "title": "Global Freight Volume by Transportation Mode",
+  "desc": "The pie chart categorizes worldwide commercial cargo movement measured in ton-kilometers.",
+  "labels": [
+    "Maritime Shipping",
+    "Road Trucking",
+    "Rail Freight",
+    "Air Cargo",
+    "Inland Waterways"
+  ],
+  "datasets": [
+    {
+      "data": [
+        70,
+        18,
+        7,
+        3,
+        2
+      ],
+      "backgroundColor": [
+        "#3b82f6",
+        "#f59e0b",
+        "#64748b",
+        "#ec4899",
+        "#06b6d4"
+      ]
+    }
+  ]
+}

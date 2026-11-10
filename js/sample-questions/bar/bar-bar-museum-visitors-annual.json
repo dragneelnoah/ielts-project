@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Annual Visitor Footfall at Famous World Museums",
+  "desc": "The bar chart details visitor attendance in millions at five prominent global cultural institutions.",
+  "labels": [
+    "Louvre (Paris)",
+    "Vatican Museums",
+    "British Museum",
+    "Met Metropolitan (NYC)",
+    "Uffizi (Florence)"
+  ],
+  "datasets": [
+    {
+      "label": "Annual Visitors (Millions)",
+      "data": [
+        8.9,
+        6.8,
+        5.8,
+        5.4,
+        5.1
+      ],
+      "backgroundColor": [
+        "#3b82f6",
+        "#f59e0b",
+        "#8b5cf6",
+        "#ec4899",
+        "#10b981"
+      ]
+    }
+  ]
+}

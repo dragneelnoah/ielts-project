@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Customer Satisfaction Index Score by Hotel Chain",
+  "desc": "The bar chart compares guest satisfaction index scores out of 100 for premium hotel brands.",
+  "labels": [
+    "Brand A",
+    "Brand B",
+    "Brand C",
+    "Brand D",
+    "Brand E"
+  ],
+  "datasets": [
+    {
+      "label": "Satisfaction Index (/100)",
+      "data": [
+        88,
+        85,
+        82,
+        79,
+        74
+      ],
+      "backgroundColor": [
+        "#10b981",
+        "#10b981",
+        "#3b82f6",
+        "#f59e0b",
+        "#ef4444"
+      ]
+    }
+  ]
+}

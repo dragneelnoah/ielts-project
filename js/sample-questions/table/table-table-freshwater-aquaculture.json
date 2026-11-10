@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Farmed Fish Production and Feed Conversion Ratios",
+  "desc": "The table highlights annual aquaculture production tonnage and Feed Conversion Ratios (FCR) for farmed species.",
+  "headers": [
+    "Species",
+    "Global Production (M Tons)",
+    "FCR (kg feed / kg fish)",
+    "Protein Efficiency (%)"
+  ],
+  "rows": [
+    [
+      "Grass Carp",
+      "5.8",
+      "1.5",
+      "28"
+    ],
+    [
+      "Nile Tilapia",
+      "4.5",
+      "1.4",
+      "32"
+    ],
+    [
+      "Atlantic Salmon",
+      "2.7",
+      "1.2",
+      "47"
+    ],
+    [
+      "Pangasius Catfish",
+      "2.4",
+      "1.6",
+      "25"
+    ]
+  ]
+}

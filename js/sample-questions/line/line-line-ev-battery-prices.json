@@ -1,0 +1,29 @@
+{
+  "type": "line",
+  "title": "Average Lithium-ion Battery Pack Prices ($/kWh)",
+  "desc": "The chart illustrates the price drop in lithium-ion battery packs per kilowatt-hour between 2013 and 2023.",
+  "labels": [
+    "2013",
+    "2015",
+    "2017",
+    "2019",
+    "2021",
+    "2023"
+  ],
+  "datasets": [
+    {
+      "label": "Battery Pack Price ($/kWh)",
+      "data": [
+        668,
+        392,
+        221,
+        156,
+        132,
+        139
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    }
+  ]
+}

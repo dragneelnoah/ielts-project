@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Cumulative Solar PV Capacity in Gigawatts (GW)",
+  "desc": "The bar chart details total installed photovoltaic solar power capacity by leading nation.",
+  "labels": [
+    "China",
+    "United States",
+    "Japan",
+    "Germany",
+    "India"
+  ],
+  "datasets": [
+    {
+      "label": "Solar Capacity (GW)",
+      "data": [
+        433,
+        142,
+        85,
+        67,
+        63
+      ],
+      "backgroundColor": [
+        "#ef4444",
+        "#3b82f6",
+        "#ef4444",
+        "#10b981",
+        "#f59e0b"
+      ]
+    }
+  ]
+}

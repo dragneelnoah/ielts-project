@@ -1,0 +1,53 @@
+{
+  "type": "line",
+  "title": "Maximum Operational Speed of High-Speed Rail Systems",
+  "desc": "The line graph details speed developments in km/h achieved by commercial bullet train operations in Japan, France, and China.",
+  "labels": [
+    "1980",
+    "1990",
+    "2000",
+    "2010",
+    "2020"
+  ],
+  "datasets": [
+    {
+      "label": "China (CRH)",
+      "data": [
+        120,
+        140,
+        200,
+        350,
+        350
+      ],
+      "borderColor": "#ef4444",
+      "backgroundColor": "#ef4444",
+      "tension": 0.3
+    },
+    {
+      "label": "Japan (Shinkansen)",
+      "data": [
+        210,
+        275,
+        300,
+        300,
+        320
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    },
+    {
+      "label": "France (TGV)",
+      "data": [
+        260,
+        300,
+        320,
+        320,
+        320
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Number of Feature Films Produced Annually by Nation",
+  "desc": "The bar chart tracks total cinema film releases produced by national film industries.",
+  "labels": [
+    "India (Bollywood+)",
+    "Nigeria (Nollywood)",
+    "United States",
+    "Japan",
+    "South Korea"
+  ],
+  "datasets": [
+    {
+      "label": "Films Produced",
+      "data": [
+        1810,
+        1500,
+        660,
+        640,
+        230
+      ],
+      "backgroundColor": [
+        "#f59e0b",
+        "#10b981",
+        "#3b82f6",
+        "#ef4444",
+        "#8b5cf6"
+      ]
+    }
+  ]
+}

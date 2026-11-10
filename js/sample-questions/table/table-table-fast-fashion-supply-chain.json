@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Clothing Brand Supply Chain Lead Times and Store Counts",
+  "desc": "The table compares design-to-shelf lead times (days), annual new style releases, and retail store footprints.",
+  "headers": [
+    "Apparel Retailer",
+    "Lead Time (Days)",
+    "Annual New Styles",
+    "Global Retail Stores"
+  ],
+  "rows": [
+    [
+      "Brand Zara",
+      "15",
+      "12000",
+      "2200"
+    ],
+    [
+      "Brand H&M",
+      "60",
+      "9500",
+      "4400"
+    ],
+    [
+      "Brand Shein",
+      "7",
+      "300000",
+      "0"
+    ],
+    [
+      "Brand Uniqlo",
+      "120",
+      "2500",
+      "2400"
+    ]
+  ]
+}

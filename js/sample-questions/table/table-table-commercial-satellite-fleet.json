@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Earth Observation Satellite Fleet Specs and Resolution",
+  "desc": "The table provides technical details for commercial Earth observation satellites including spatial resolution (meters) and revisit rates.",
+  "headers": [
+    "Constellation",
+    "Active Satellites",
+    "Spatial Resolution (m)",
+    "Revisit Frequency (Hours)"
+  ],
+  "rows": [
+    [
+      "Constellation X",
+      "210",
+      "3.0",
+      "24"
+    ],
+    [
+      "Constellation Y",
+      "18",
+      "0.3",
+      "12"
+    ],
+    [
+      "Constellation Z",
+      "4",
+      "0.5",
+      "48"
+    ],
+    [
+      "Constellation W",
+      "35",
+      "1.2",
+      "18"
+    ]
+  ]
+}

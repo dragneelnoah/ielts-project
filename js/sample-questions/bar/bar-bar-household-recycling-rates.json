@@ -1,0 +1,34 @@
+{
+  "type": "bar",
+  "title": "Household Recycling Rates by European City (2023)",
+  "desc": "The bar chart compares the percentage of total municipal waste successfully recycled in six European capitals.",
+  "labels": [
+    "Ljubljana",
+    "Vienna",
+    "Helsinki",
+    "Berlin",
+    "London",
+    "Rome"
+  ],
+  "datasets": [
+    {
+      "label": "Recycling Rate (%)",
+      "data": [
+        62.5,
+        58.1,
+        54.3,
+        49.2,
+        38.0,
+        32.6
+      ],
+      "backgroundColor": [
+        "#10b981",
+        "#10b981",
+        "#10b981",
+        "#3b82f6",
+        "#f59e0b",
+        "#ef4444"
+      ]
+    }
+  ]
+}

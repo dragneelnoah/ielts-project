@@ -1,0 +1,27 @@
+{
+  "type": "line",
+  "title": "Global Air Freight Traffic in Revenue Ton-Kilometers (RTKs)",
+  "desc": "The line graph details international air cargo traffic volume in billions of RTKs between 2015 and 2023.",
+  "labels": [
+    "2015",
+    "2017",
+    "2019",
+    "2021",
+    "2023"
+  ],
+  "datasets": [
+    {
+      "label": "Air Freight Volume (Billion RTKs)",
+      "data": [
+        210,
+        232,
+        228,
+        252,
+        240
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    }
+  ]
+}

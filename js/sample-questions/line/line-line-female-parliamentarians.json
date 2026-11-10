@@ -1,0 +1,53 @@
+{
+  "type": "line",
+  "title": "Percentage of Parliamentary Seats Held by Women",
+  "desc": "The line chart outlines female representation in national parliaments across three global regions from 2000 to 2020.",
+  "labels": [
+    "2000",
+    "2005",
+    "2010",
+    "2015",
+    "2020"
+  ],
+  "datasets": [
+    {
+      "label": "Nordic Countries",
+      "data": [
+        38.8,
+        41.2,
+        42.1,
+        43.5,
+        44.7
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    },
+    {
+      "label": "Americas",
+      "data": [
+        15.3,
+        19.0,
+        22.4,
+        26.8,
+        31.2
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    },
+    {
+      "label": "Sub-Saharan Africa",
+      "data": [
+        12.6,
+        15.8,
+        19.4,
+        22.1,
+        24.8
+      ],
+      "borderColor": "#f59e0b",
+      "backgroundColor": "#f59e0b",
+      "tension": 0.3
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "pie",
+  "title": "Mobile App Store Revenue Distribution by Category",
+  "desc": "The pie chart categorizes gross consumer spending across mobile digital application downloads.",
+  "labels": [
+    "Mobile Gaming",
+    "Entertainment & Streaming",
+    "Social Networking",
+    "Productivity & Utility",
+    "Health & Fitness",
+    "Education"
+  ],
+  "datasets": [
+    {
+      "data": [
+        56,
+        16,
+        11,
+        8,
+        5,
+        4
+      ],
+      "backgroundColor": [
+        "#ef4444",
+        "#8b5cf6",
+        "#3b82f6",
+        "#10b981",
+        "#06b6d4",
+        "#f59e0b"
+      ]
+    }
+  ]
+}

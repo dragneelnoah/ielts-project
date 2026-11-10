@@ -1,0 +1,40 @@
+{
+  "type": "line",
+  "title": "Global Desalinated Water Capacity (2000 - 2020)",
+  "desc": "The chart tracks worldwide output of desalinated freshwater in million cubic meters per day.",
+  "labels": [
+    "2000",
+    "2005",
+    "2010",
+    "2015",
+    "2020"
+  ],
+  "datasets": [
+    {
+      "label": "Middle East",
+      "data": [
+        15.2,
+        22.4,
+        34.1,
+        46.8,
+        58.2
+      ],
+      "borderColor": "#f59e0b",
+      "backgroundColor": "#f59e0b",
+      "tension": 0.3
+    },
+    {
+      "label": "Rest of World",
+      "data": [
+        8.5,
+        12.1,
+        18.9,
+        27.5,
+        36.8
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    }
+  ]
+}

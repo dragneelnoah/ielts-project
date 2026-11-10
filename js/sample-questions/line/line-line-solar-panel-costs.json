@@ -1,0 +1,29 @@
+{
+  "type": "line",
+  "title": "Average Cost per Watt of Residential Solar Panels",
+  "desc": "The graph details the decline in residential solar energy hardware costs in USD per watt from 2008 to 2022.",
+  "labels": [
+    "2008",
+    "2011",
+    "2014",
+    "2017",
+    "2020",
+    "2022"
+  ],
+  "datasets": [
+    {
+      "label": "Solar Module Cost ($/W)",
+      "data": [
+        8.5,
+        4.8,
+        2.7,
+        1.6,
+        0.95,
+        0.78
+      ],
+      "borderColor": "#f59e0b",
+      "backgroundColor": "#f59e0b",
+      "tension": 0.3
+    }
+  ]
+}

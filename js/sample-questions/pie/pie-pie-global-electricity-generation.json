@@ -1,0 +1,33 @@
+{
+  "type": "pie",
+  "title": "Global Electricity Generation Mix by Source",
+  "desc": "The pie chart shows the percentage share of primary fuel sources used to generate electricity worldwide.",
+  "labels": [
+    "Coal",
+    "Natural Gas",
+    "Hydroelectric",
+    "Nuclear",
+    "Wind & Solar",
+    "Oil"
+  ],
+  "datasets": [
+    {
+      "data": [
+        35.4,
+        22.7,
+        14.9,
+        9.1,
+        14.4,
+        3.5
+      ],
+      "backgroundColor": [
+        "#64748b",
+        "#f59e0b",
+        "#3b82f6",
+        "#8b5cf6",
+        "#10b981",
+        "#ef4444"
+      ]
+    }
+  ]
+}

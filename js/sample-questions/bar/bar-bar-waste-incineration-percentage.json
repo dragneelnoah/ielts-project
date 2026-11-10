@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Share of Municipal Solid Waste Incinerated for Energy",
+  "desc": "The chart displays the percentage share of trash treated via thermal energy recovery plants.",
+  "labels": [
+    "Japan",
+    "Nordic Region",
+    "Switzerland",
+    "Germany",
+    "United Kingdom"
+  ],
+  "datasets": [
+    {
+      "label": "Waste Incinerated (%)",
+      "data": [
+        74,
+        53,
+        47,
+        32,
+        44
+      ],
+      "backgroundColor": [
+        "#ef4444",
+        "#10b981",
+        "#10b981",
+        "#3b82f6",
+        "#f59e0b"
+      ]
+    }
+  ]
+}

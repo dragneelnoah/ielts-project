@@ -1,0 +1,29 @@
+{
+  "type": "line",
+  "title": "Total Kilometers of Protected Bike Lanes in City Y",
+  "desc": "The graph tracks municipal investment in dedicated segregated cycling paths between 2012 and 2022.",
+  "labels": [
+    "2012",
+    "2014",
+    "2016",
+    "2018",
+    "2020",
+    "2022"
+  ],
+  "datasets": [
+    {
+      "label": "Protected Bike Lanes (km)",
+      "data": [
+        35,
+        58,
+        92,
+        145,
+        210,
+        285
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    }
+  ]
+}

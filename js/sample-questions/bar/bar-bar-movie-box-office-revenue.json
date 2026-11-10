@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Highest Grossing Animated Films Global Box Office",
+  "desc": "The bar chart displays total worldwide ticket sales in millions of USD for top animated feature releases.",
+  "labels": [
+    "Film A",
+    "Film B",
+    "Film C",
+    "Film D",
+    "Film E"
+  ],
+  "datasets": [
+    {
+      "label": "Box Office ($ Millions)",
+      "data": [
+        1656,
+        1453,
+        1281,
+        1159,
+        1073
+      ],
+      "backgroundColor": [
+        "#f59e0b",
+        "#3b82f6",
+        "#10b981",
+        "#ec4899",
+        "#8b5cf6"
+      ]
+    }
+  ]
+}

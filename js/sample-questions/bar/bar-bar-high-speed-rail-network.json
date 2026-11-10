@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Total Length of Operating High-Speed Rail Lines (km)",
+  "desc": "The chart illustrates total track network length in kilometers dedicated to bullet train transit.",
+  "labels": [
+    "China",
+    "Spain",
+    "Japan",
+    "France",
+    "Germany"
+  ],
+  "datasets": [
+    {
+      "label": "Track Length (km)",
+      "data": [
+        42000,
+        3900,
+        3080,
+        2735,
+        1571
+      ],
+      "backgroundColor": [
+        "#ef4444",
+        "#f59e0b",
+        "#3b82f6",
+        "#8b5cf6",
+        "#10b981"
+      ]
+    }
+  ]
+}

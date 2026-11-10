@@ -1,0 +1,43 @@
+{
+  "type": "line",
+  "title": "Monthly E-Scooter Trips in a European Capital",
+  "desc": "The chart shows the total volume of shared e-scooter rides in thousands registered throughout 2023.",
+  "labels": [
+    "Jan",
+    "Mar",
+    "May",
+    "Jul",
+    "Sep",
+    "Nov"
+  ],
+  "datasets": [
+    {
+      "label": "City Center Zone",
+      "data": [
+        45,
+        62,
+        110,
+        185,
+        140,
+        70
+      ],
+      "borderColor": "#3b82f6",
+      "backgroundColor": "#3b82f6",
+      "tension": 0.3
+    },
+    {
+      "label": "Suburban Belt",
+      "data": [
+        12,
+        18,
+        42,
+        85,
+        58,
+        22
+      ],
+      "borderColor": "#10b981",
+      "backgroundColor": "#10b981",
+      "tension": 0.3
+    }
+  ]
+}

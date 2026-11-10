@@ -1,0 +1,27 @@
+{
+  "type": "pie",
+  "title": "Enterprise IT Infrastructure Spending Allocation",
+  "desc": "The chart depicts corporate expenditure distribution across cloud and local server hardware setups.",
+  "labels": [
+    "Public Cloud Infrastructure",
+    "Private On-Premise Data Centers",
+    "Hybrid Cloud Services",
+    "Traditional Mainframe"
+  ],
+  "datasets": [
+    {
+      "data": [
+        48,
+        27,
+        19,
+        6
+      ],
+      "backgroundColor": [
+        "#3b82f6",
+        "#64748b",
+        "#8b5cf6",
+        "#f59e0b"
+      ]
+    }
+  ]
+}

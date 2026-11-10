@@ -1,0 +1,43 @@
+{
+  "type": "table",
+  "title": "Historical Evolution of Container Ship Capacity",
+  "desc": "The table compares container vessel dimensions, draft (meters), and maximum TEU capacity over five decades.",
+  "headers": [
+    "Vessel Generation / Year",
+    "Max Capacity (TEU)",
+    "Length Overall (m)",
+    "Max Draft (m)"
+  ],
+  "rows": [
+    [
+      "Early Container Ship (1970)",
+      "1500",
+      "215",
+      "9.0"
+    ],
+    [
+      "Panamax (1985)",
+      "4500",
+      "294",
+      "12.5"
+    ],
+    [
+      "Post-Panamax (2000)",
+      "8000",
+      "347",
+      "14.5"
+    ],
+    [
+      "ULCV (2015)",
+      "19000",
+      "399",
+      "16.0"
+    ],
+    [
+      "Megamax (2023)",
+      "24000",
+      "400",
+      "16.5"
+    ]
+  ]
+}

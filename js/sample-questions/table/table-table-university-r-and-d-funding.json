@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "University Research and Development Expenditures",
+  "desc": "The table presents institutional R&D funding allocations split by federal government grants, corporate sponsorship, and institutional funds.",
+  "headers": [
+    "University",
+    "Federal Grants ($M)",
+    "Corporate Funding ($M)",
+    "Institutional Funds ($M)"
+  ],
+  "rows": [
+    [
+      "Tech Institute Alpha",
+      "850",
+      "210",
+      "340"
+    ],
+    [
+      "University Beta",
+      "720",
+      "145",
+      "290"
+    ],
+    [
+      "State University Gamma",
+      "610",
+      "98",
+      "180"
+    ],
+    [
+      "College Delta",
+      "490",
+      "115",
+      "210"
+    ]
+  ]
+}

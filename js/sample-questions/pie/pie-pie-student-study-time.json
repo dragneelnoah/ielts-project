@@ -1,0 +1,33 @@
+{
+  "type": "pie",
+  "title": "Daily Time Allocation of High School Boarding Students",
+  "desc": "The pie chart shows how high school boarding students divide a typical 24-hour weekday.",
+  "labels": [
+    "Sleep",
+    "Classroom Instruction",
+    "Self-Study & Homework",
+    "Leisure & Socializing",
+    "Meals & Personal Care",
+    "Extracurriculars"
+  ],
+  "datasets": [
+    {
+      "data": [
+        33,
+        25,
+        17,
+        11,
+        8,
+        6
+      ],
+      "backgroundColor": [
+        "#3b82f6",
+        "#10b981",
+        "#f59e0b",
+        "#ec4899",
+        "#06b6d4",
+        "#8b5cf6"
+      ]
+    }
+  ]
+}

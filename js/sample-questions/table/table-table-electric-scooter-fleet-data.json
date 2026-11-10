@@ -1,0 +1,37 @@
+{
+  "type": "table",
+  "title": "Micro-Mobility E-Scooter Operational Statistics",
+  "desc": "The table details active fleet counts, daily trip averages per scooter, and average trip distances across four capitals.",
+  "headers": [
+    "City",
+    "Active Fleet Size",
+    "Trips / Scooter / Day",
+    "Avg Trip Distance (km)"
+  ],
+  "rows": [
+    [
+      "Paris",
+      "15000",
+      "4.8",
+      "2.4"
+    ],
+    [
+      "Berlin",
+      "22000",
+      "3.2",
+      "1.9"
+    ],
+    [
+      "Rome",
+      "14500",
+      "2.9",
+      "2.1"
+    ],
+    [
+      "Madrid",
+      "6000",
+      "3.6",
+      "1.8"
+    ]
+  ]
+}
